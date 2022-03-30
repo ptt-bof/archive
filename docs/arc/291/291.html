@@ -1,0 +1,234 @@
+<html>
+<head><title> #291th PTT (in Japanese)</title></head>
+<body>
+<h1> 第 291 回 PTT のお知らせ </h1>
+<hr>
+日時: 2003年7月24日(木) 18:30 から
+<hr>
+早稲田大学理工学部59号館4階 情報学科会議室
+<pre>
+      山手線高田馬場駅より早稲田通りを東へ7分、 明治通りを南へ8分、
+      右手に理工キャンパス。 キャンパスの南側の道から正門入る.
+      正門のすぐ左手が59号館
+
+ |               |
+[T]--------------+----
+ |  早稲田通り   |明
+ |               |治
+ |山             |通
+ |手             |り
+ |線   ----------+<-諏訪町交差点---
+ |            [7]|
+ |               |
+ |       +------+|
+ ||      |早稲田||
+ |v      +--[S]-+|
+ |新     --------+
+ |宿             |[L]
+
+[T]=高田馬場駅   [7]=セブンイレブン  [L]=ローソン
+[S]=正門
+(キャンパス拡大図)
+       +----------+
+       |    51    |<-高いビル
+       +----------+
+
++----+
+|59  |
+|    |
++----+
+</pre>
+<hr>
+話者: 山内斉 (Max-Planck Institute f"ur Informatik)
+<hr>
+題名：Image Restoration using Multiresolution Texture Synthesis and Image
+Inpainting
+
+
+<hr>
+概要：<br>
+Search-by-example 法に基づく texture synthesis 法と Diffusion (Partial
+Differential Equation) 法により，画像の失なわれた部分を推定，再構成す
+る方法について話します．古いフィルムの復元や不要な物体(ロゴ，字幕，マ
+イクロフォン)の消去などの応用があります．これは 2003年の7月9日から11日
+に日本で開催予定のCGI 2003において発表する内容を基本にしています．
+<p>
+We present a new method for the restoration of digitized photographs.
+Restoration in this context refers to removal of image defects such as
+scratches and blotches as well as to removal of disturbing objects as,
+for instance, subtitles, logos, wires, and microphones.
+<p>
+Our method combines techniques from texture synthesis and image
+inpainting, bridging the gap between these two approaches that have
+recently attracted strong research interest. Combining image
+inpainting and texture synthesis in a multiresolution approach gives
+us the best of both worlds and enables us to overcome the limitations
+of each of those individual approaches.
+<p>
+The restored images obtained with our method look plausible in general
+and surprisingly good in some cases. This is demonstrated for a
+variety of input images that exhibit different kinds of defects.
+<p>
+This paper will be presented in Computer Graphics International 2003,
+9-11th, July 2003, Tokyo.
+<hr>
+<h1>第 291 回 PTTメモ</h1>
+<hr>
+日時: 2003年7月24日 (木) 18:30 から 
+<hr>
+場所: 早稲田大学理工学部59号館4階 情報学科会議室
+<hr>
+題名: Image Restoration using Multiresolution Texture Synthesis and Image
+Inpainting
+<hr>
+話者: 山内斉 (Max-Planck Institute f"ur Informatik)
+<hr>
+出席者： 寺田実，多田好克，竹内郁雄，鈴木信吾(電通大)，
+         伊知地宏(ラムダ数教研)，石畑清(明大)，鷲崎弘宜，長慎也(早大)，
+	 並木美太郎(農工大)，中村嘉志(産総研)，上坂明未(津田塾)，
+	 田中哲朗，林芳樹，丸山一貴，副田俊介，繁富利恵(東大)
+<hr>
+概要:<br>
+Search-by-example 法に基づく texture synthesis 法と Diffusion (Partial
+Differential Equation) 法により，画像の失なわれた部分を推定，再構成す
+る方法について話します．古いフィルムの復元や不要な物体(ロゴ，字幕，マ
+イクロフォン)の消去などの応用があります．これは 2003年の7月9日から11日
+に日本で開催予定のCGI 2003において発表する内容を基本にしたものです．
+<p>
+We present a new method for the restoration of digitized photographs.
+Restoration in this context refers to removal of image defects such as
+scratches and blotches as well as to removal of disturbing objects as,
+for instance, subtitles, logos, wires, and microphones.
+<p>
+Our method combines techniques from texture synthesis and image
+inpainting, bridging the gap between these two approaches that have
+recently attracted strong research interest. Combining image
+inpainting and texture synthesis in a multiresolution approach gives
+us the best of both worlds and enables us to overcome the limitations
+of each of those individual approaches.
+<p>
+The restored images obtained with our method look plausible in general
+and surprisingly good in some cases. This is demonstrated for a
+variety of input images that exhibit different kinds of defects.
+<p>
+This paper presented in Computer Graphics International 2003, 9-11th,
+July 2003, Tokyo.
+<hr>
+質疑応答:
+<hr>
+Q. 再構成方式を Watermark の attack に使えるか?
+<p>
+A. Watermark の知識が話者に欠けていうので確実なことは言えないが，
+high-frequency 部分に texture に近い watermark がある場合には attack 
+になるかもしれない．しかし，high-frequency は Gaussian blur などの 
+attack に簡単にやられてしまうので，そのような Watermark は現実的でない
+かと思う．
+<hr>
+Q. より高い周波数(高解像度)の画像があれば低い部分の画像の再構成に有益
+か?
+<p>
+A. その可能性はある．しかし，ここで発表した方式では高い周波数の画像は
+高い周波数の再構成には使えるが，高い周波数の画像を低い周波数に使う場合
+には，低い周波数のものと同等の効果しかないと思う．これは Subimage の距
+離を見て再構成を行うために結局低い周波数部分の再構成時には Quantize さ
+れてしまい，高い周波数をそのまま利用できないためである．
+<p>
+実はこの質問に関して発表では時間がなく言えなかったが，Super resolution 
+という研究分野がある．この分野で私が面白いと思ういくつかの研究には
+<quote>
+	高い周波数のみ転送し，ぼけた画像を鮮明に見せる方式
+<p>
+	低解像度のビデオシーケンスがある convolution の結果であると仮
+	定して，高解像度の一枚絵を再構成しようという研究
+<p>
+	写っているものが何かという知識がある場合，データベースの知識を
+	用いて低解像度の画像から高解像度を再構成する研究(たとえば顔が
+	写っているという知識があるすると，大量の正規化した顔写真を保持
+	しておき，その情報を用いて再構成を行う)
+</quote>
+などがある．
+<hr>
+Q. PDE (Partial Differential Equation) を解いた結果を guide にしての再
+構成は? 
+<p>
+A. PDE を解いた結果を使うのではないが，ある画像を guide にしての再構成
+は存在する．話の中で見せた Natural Texture の論文や，Image analogy
+(http://mrl.nyu.edu/projects/image-analogies/) 方式が代表的である．
+Image analogy における顕著な例は 
+http://mrl.nyu.edu/projects/image-analogies/oxbow.html にある．
+<hr>
+Q. マスクを作成する時間がクリティカルなのでは，実際は何を目指している
+のか?
+<p>
+A. マスクの作成が問題になる可能性はもちろんある．しかしこれに関する解
+答はいくつかある．
+<quote>
+    話の中で最初に damaged pixel とは何かを定義した．その繰り返しにな
+    るが，
+<p>
+     1-a)何かを消したいという場合には人間の意志が入っているので，機械が
+         人間の意志を読めるようになるまで自動では困難である．その場合に
+         は intelligent scissors などの洗練された画像選択法などを補助に
+         使う方法がある．
+<p>
+     1-b)画像のシーケンスの場合には統計的性質を使う研究が先行研究にある．
+<p>
+    2. 一方，第二の motivation として私は IBR (Image based rendering) 
+    などの手法で生成された画像の欠陥に関して述べた．その場合 
+    registration error などをpixel 単位で計算できるため，実際にどのピ
+    クセルが欠けているかは自動で判断できる．
+</quote>
+<hr>
+Q. Text はこれで再構成できるか?
+<p>
+A. 
+<p>
+1. 文字列のシーケンスとしての再構成
+<p>
+   私は情報処理学会の雑誌の名著名論でシャノンの論文の話が出た時に興味
+   を持って拝見したが，そこには n-gram を用いた英文の再構成というもの
+   がある．ある Markov random field の構成方法としてみればこの方法の後
+   半部分 --- non-parametric sampling (search-by-example) 法 --- はこ
+   のシャノンの方法の二次元の拡張であるとも言える．
+<p>    
+2. 画像としての再構成
+<p>
+   これは先行研究の論文 (Patch base) を御覧に入れた．ちょっと離れると
+   それっぽく見える画像であるが，内容として意味が読めるものではない．
+<hr>
+
+Q. 再構成の時間は?
+<p>
+A. PDE 方でも 失われたピクセル数に比例する．ただし一回の探索は 
+non-parametric sampling で入力データ数 n の場合，O(log n) である．これ
+は探索 Subimage を木として保持しているからである．この木を生成する時間
+もけっこうかかる．今回例として見せた画像では，Pentium III 1.7 GHz のマ
+シンで一つの再構成に 10 から 20 分かかる．画像が大きくなった場合には，
+時間よりもメモリが問題となりそうである．例とした大きさの画像で 600
+MBytes から 1 GBytes のメモリが必要であり，これは画像の pixel 数に比例
+する．
+
+<hr>
+Q. Subimage (Kernel) の形はどうしてそのようなものなのか?
+<p>
+A. これは 1995 年に Popert らがいくつかの kernel の形に関した研究をし
+ており，私はそのうちscanline order の再構成に適していると言われている 
+(Wei-Li 2000 の論文にある) 形状を利用した．
+<hr>
+コメント
+<p>
+Texture Synthesis という分野は古くからあるにはありますが，example base
+のものはここ2〜3年で急にさかんになったものです．そのため，高々 50 本ほ
+どの論文を読むだけで最先端の感覚がつかめます．もちろん最先端をつかむと
+いうのと，その先を作る(=論文を書く)のは別の話で，最先端をつかむだけな
+ら読めばいいだけの話なのですが．．．とはいえ，実装も入れて三ヶ月もあれ
+ばまあいっぱしになれるという意味で，ちょっとやってみるというのには良い
+かと思います．何かテーマに迷っている博士課程の方とかいればいかがでしょ
+うか? 
+<p>
+また，この論文に関する Web Page を現在準備中です．以下の URL からたど
+れるようにする予定です．
+<a href="http://www.mpi-sb.mpg.de/~hitoshi/research/projects.shtml">http://www.mpi-sb.mpg.de/~hitoshi/research/projects.shtml</a>
+</body>
+</html>
+

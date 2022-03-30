@@ -1,0 +1,147 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="ja">
+<head>
+<!-- copyright (c) 2012 Yoshitaka Arahori.  All rights reserverd.  -->
+<!-- copyright (c) 2008 Koichi Sasada.  All rights reserverd.  -->
+<!-- copyright (c) 2006 Kazutaka Maruyama.  All rights reserverd.  -->
+<!-- copyright (c) 2004 Kazuhiko Kakehi.  All rights reserverd.  -->
+<!-- original design by YAMAUCHI Hitoshi -->
+<!-- 魑魅魍魎 -->
+
+<title>Programming Tools and Techniques (in Japanese)</title>
+<meta Http-Equiv="Content-Type" Content="text/html; charset=UTF-8">
+<meta Http-Equiv="Content-Style-Type" Content="text/css;">
+
+</head>
+<body bgcolor="#ffffff" text="#000000" 
+      link="#0000EE" vlink="#551A8B" alink="#FF0000">
+
+  <h1>PTT: Programming Tools and Techniques</h1>
+  <p><a href="index.html.en">To English page</a></p>
+  <hr>
+  <p><u><b>◆2004年 5月に第300回を迎えました．これからもよろしくお願い致します．◆</b></u>
+  </p>
+  <p>
+  2012年4月からPTT幹事を務めています，東京工業大学の荒堀です. 皆さまよろしくお願い致します．
+  </p>
+  <p>
+  PTTは東京近辺の大学を中心に構成された私的な研究会で，計算機，プログラミング，情報処理に関する研究や経験談について，自由なスタイルで発表・議論を行なっています．第1回目が1976年4月に行なわれるという，長い歴史を有する研究会でもあります（履歴は<a href="list.shtml">発表リスト</a>を御覧下さい）．現在は月に1回，東大（本郷），東工大（大岡山），慶應大（矢上・日吉），早稲田大（新大久保），電通大（調布），農工大（東小金井）の6大学で会場を持ち回って開催しています．
+  </p>
+  <p>
+  話者および分野は毎回異なりますので，専門分野外の知識を広げたり, 逆に自分の専門分野に近いところで深い議論に参加することもできます．参加人数は毎回10～20人程度で, 少人数のアットホーム的なスタイルとなっています．会費等は徴収しておりません．参加も大学だけでなく，企業からの参加も歓迎しております．気にいったテーマ等があるときに，どうぞお気軽に御参加下さい．</p>
+  <p>
+  毎月上旬にプログラムを掲示します．また，プログラムなどをお知らせするためのメーリングリストも作成されています．PTTにご興味をお持ちの方は，ptt-ml-admin __(at-mark)__ de.cs.titech.ac.jp（SPAM対策）に御連絡下さい．なお，配送エラーが一定期間続いたメールアドレスは配送を停止しています．お問い合わせは上記のメールアドレスまで．
+  </p>
+  <hr width="80%">
+  <ul>
+    <li> 
+<!-- BEGIN: next presentation -->
+次回の発表：<a href='arc/397'>PTT#397</a>
+<!-- END: next presentation -->
+
+   </li>
+</ul>
+<p>
+
+<pre>
+<!-- BEGIN: description -->
+------------------------------------------------------------------
+            第 397 回 PTT のお知らせ
+
+   ---  Programming Tools and Techniques  ---
+------------------------------------------------------------------
+■日時: 2014年12月3日 (水) 18:30 から
+■場所: 東京工業大学 西8号館E棟3階834号室 （大岡山キャンパス）
+<a href='http://www.titech.ac.jp/about/campus/o_map.html'>
+http://www.titech.ac.jp/about/campus/o_map.html
+</a>
+
+------------------------------------------------------------------
+■話者: 海外 浩平 （NEC OSS推進センター）
+
+------------------------------------------------------------------
+■題名：
+GPGPUがPostgreSQLを加速する ~PG-Stromご紹介~
+
+------------------------------------------------------------------
+■概要：
+
+半導体の消費電力/発熱が問題となっている昨今、主要半導体ベンダ
+各社はCPU/GPU混在型の計算手法～ヘテロジニアス・コンピューティ
+ング～を更なる性能向上のアプローチとして採用してきています。
+それは一方で、ソフトウェアの側でも明確にGPU対応を行わねば、
+十分にハードウェアの性能を引き出せない時代の到来を意味します。
+
+PG-StromはPostgreSQL用の拡張モジュールで、CPUボトルネックな
+ワークロードをGPUにオフロード、超並列コアの機能を活用する事で
+SQLクエリの応答速度を劇的に向上する事を可能にします。
+半導体技術のトレンドがヘテロジニアス化へとシフトしていく中で、
+RDBMSの領域でいち早くGPUの能力を引き出そうとする試みで
+あると言えるでしょう。
+
+本セッションでは、GPUの特性やPostgreSQLのクエリ処理フローと
+いった周辺技術の概要と、PG-Stromがどのように高速化を実現して
+いるので、またその想定用途であるBI（Business Intelligence）ツール
+での利用についてご紹介します。
+
+------------------------------------------------------------------
+■アクセス情報：
+
+●大岡山キャンパスの案内
+
+東急大井町線、目黒線の大岡山駅下車、徒歩１分です。
+<a href='http://www.titech.ac.jp/about/campus/'>
+http://www.titech.ac.jp/about/campus/
+</a>
+
+以下の地図の大岡山西地区をクリックした拡大図の25番の建物が西8号館E棟です。
+<a href='http://www.titech.ac.jp/about/campus/o_map.html'>
+http://www.titech.ac.jp/about/campus/o_map.html
+</a>
+
+●正門から西8号館E棟W834まで
+
+駅を出てすぐに正門があります(8)。ここから右手に向って本館(1)前の桜並木に
+出ます(1と7の間)。 桜並木から、芝生脇の坂を下ったところに西8号館E棟が
+あります(25)。エントランスより入って、正面廊下を直進すると左手側に講義室が
+二つ見えます。一つ目の講義室(W834)が会場です。
+<a href='http://www.titech.ac.jp/about/campus/o_map.html'>
+http://www.titech.ac.jp/about/campus/o_map.html
+</a>
+
+------------------------------------------------------------------
+
+
+ご講演後の懇親会（PTT忘年会）に参加ご希望の方は下記情報をご確認の上、
+下記フォームにて参加申込みを行ってください。よろしくお願いいたします。
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+             第 397 回 PTT懇親会（PTT忘年会）
+
+日時：2014/12/3 (水) 20:20 ごろから（PTT 講演終了後）    
+場所：東急目黒線大岡山駅または自由が丘駅周辺を予定
+予算；6000円程度を予定
+注意：年末のため飛び入り参加はほぼ不可ですのでご了承下さい。
+申込締切：定員の20名になるか，11/27 (木) 17:00 まで
+参加申込フォーム:
+<a href='https://docs.google.com/forms/d/1bku72X36NgxjKMhcZqkCvZ6zq02Aur5G8ef3pOtjI7k/viewform'>
+https://docs.google.com/forms/d/1bku72X36NgxjKMhcZqkCvZ6zq02Aur5G8ef3pOtjI7k/viewform</a>
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+<!-- END: description -->
+</pre>
+
+</p>
+    </li>
+    <li><a href='list.shtml'>これまでの発表リスト</a></li>
+    <li><a href='detail.shtml'>PTTの詳細</a></li>
+    <li><a href='caplist.shtml'>History of CAP (in Japanese)</a></li>
+  </ul>
+  <hr>
+  <address>
+    $Date:: 2008-08-02 21:10:10 +0900#$<br/>
+    ptt-ml-admin __(at-mark)__ de.cs.titech.ac.jp（SPAM対策）
+  </address>
+</body>
+</html>

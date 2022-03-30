@@ -1,0 +1,147 @@
+<!DOCTYPE HTML  PUBLIC  "-//W3C//DTD HTML 3.2//EN">
+<!-- YAMAUCHI Hitoshi's Page   -->
+<!-- Copyright (C) By YAMAUCHI Hitoshi -->
+<html>
+<head>
+<title># 170 PTT (in Japanese)</title>
+<META http-equiv="Content-type" content="text/html;charset=EUC-JP">
+<META name="Author" content="YAMAUCHI Hitoshi">
+</head>
+
+<body>
+<h2>
+<!-- PTTNUMBER -->
+第 170 回 PTT のお知らせ
+<!-- /PTTNUMBER -->
+</h2>
+
+<hr>
+<!-- PTTDATE -->
+日時: 1991年 12月 19日 (木)  18:30 から
+<!-- /PTTDATE -->
+<hr>
+<!-- PTTPLACE -->
+場所: 富士ゼロックス株式会社 KSPソフトウェア事業所 4F A472会議室
+<!-- /PTTPLACE -->
+      JR南武線武蔵溝の口駅，東急田園都市線溝の口駅下車．
+      田園都市線利用者は南武線乗り換え口を出て，まっすぐ
+      南武線に沿って進む．南武線利用者は，改札を出て
+      すぐ右に曲がり南武線に沿って進む．
+      どちらも約1000m進むと左手にNEC東京第二工場があるので，
+      その右端の塀に沿い約50m進むと，かながわサイエンス
+      パーク(KSP) (淡い紫色のビル)の前に着く．X字した棟の
+      手前側のエレベータに乗り，4階で降りる．
+      KSPへのシャトルバスもあります. 乗り場まで駅から徒歩
+      で5分ほど, シャトルバスに乗って3分ほどで着きます. 
+      バス乗り場はわかりにくいところにありますので, 下記へ
+      お問い合わせ下さい.
+      電子メールでFAX番号を教えていただければ，詳しい地図
+      をお送り致します．
+      問い合わせ先: hiro@ksp.fujixerox.co.jp
+<hr>
+<!-- PTTTALKER -->
+話者：森田雅夫 (富士ゼロックス株式会社)
+<!-- /PTTTALKER -->
+<hr>
+<!-- PTTTHEMA -->
+題目： ip2ps: PostScriptによるInterpressのエミュレーション
+<!-- /PTTTHEMA -->
+<hr>
+<!-- PTTABSTRACT -->
+
+概要：ページ記述言語であるInterpressをPostScriptでエミュレーションする
+プログラム(ip2ps)について述べる。ip2psは、Interpress言語のページ記述を
+PostScript言語のページ記述へSource to Sourceで変換する。その基本的な考
+え方は、Interpressの命令をPostScriptの手続きでエミュレートするというこ
+とである。ip2psはASCII形式のInterpressのファイルとほぼ同じものを出力し、
+さらに、PostScriptプリンタでエミュレートするための手続きの定義群をヘッ
+ダとして付け加える。この発表では、InterpressとPostScriptの違いとエミュ
+レートするための手続きの定義について述べる。
+
+<!-- /PTTABSTRACT -->
+<hr>
+食事:今回はありません．武蔵溝の口駅前にパン屋，パン屋とパチンコ屋の間
+の路地を入ったところに，マクトナルドとファーストキッチンがあります．
+
+<hr>
+<h2>
+第 170 回 PTTメモ
+</h2>
+
+<hr>
+日時: 1991年12月19日　午後6:40〜
+<hr>
+場所: 富士ゼロックス株式会社 KSPソフトウェア事業所 A472会議室
+<hr>
+題目: ip2ps : PostScriptによるInterpressのエミュレーション
+<hr>
+話者: 森田雅夫 (富士ゼロックス)
+<hr>
+出席者:
+<!-- PTTPRESENCE -->
+武内 和昭 (東芝),
+森山 茂男,
+多田 好克,
+川平 吉樹 (電通大),
+並木 美太郎,
+早川 栄一,
+門奈 敦,
+酒井 貴子 (農工大),
+岩崎 英哉,
+田中 久美子,
+徐 良為(東大),
+石畑 清(明大),
+佐口 泰之,
+伊知地 宏,
+宇久 一輝,
+倉部 淳 (富士ゼロックス)
+<!-- /PTTPRESENCE -->
+<hr>
+<!-- PTTDISCUSSION -->
+質疑応答:<br>
+
+<p>ページ記述言語であるInterpressをPostScriptでエミュレーションするプ
+ログラム(ip2ps)について述べた。ip2psは、Interpress言語のページ記述を
+PostScript言語のページ記述へSource to Sourceで変換する。その基本的な考
+え方は、Interpressの命令をPostScriptの手続きでエミュレートするというこ
+とである。ip2psはASCII形式のInterpressのファイルとほぼ同じものを出力し、
+さらに、PostScriptプリンタでエミュレートするための手続きの定義群をヘッ
+ダとして付け加える。この発表では、InterpressとPostScriptの違いとエミュ
+レートするための手続きの定義について述べた。</p>
+
+ip2psの処理は、<br>
+(1)エミュレートするための手続き群をヘッダとして付加する<br>
+(2)バイナリ形式のInterpressファイルをASCII表現に変換する<br>
+(3)一部のオペレータとオペランドの順序を入れ替える<br>
+(4)文字コード変換を行う(XCCS → JIS)<br>
+ことである。<br>
+
+エミュレートするための手続き群の定義は、全てPostScriptで記述
+されており、<br>
+
+(1)Interpressのデータ構造の定義(PostScriptのデータ型と辞書を用
+   いた)<br>
+(2)データにアクセスする手続きの定義<br>
+(3)上記(1)と(2)を用いたInterpress命令の定義<br>
+
+から構成されている。<br>
+
+<p>ip2psは、InterpressとPostScriptを比較するためにものであるが、
+結論として言えるのは、InterpressはPostScriptで十分エミュレート
+できるということである。これは、PostScriptが低レベルな命令を多
+く持ち、さらに、辞書という命令を定義できる機構を持っているので、
+Interpressの命令の定義が楽にできるためである。</p>
+
+<p>ip2psの問題点は、InterpressプリンタとPostScriptプリンタで持っ
+ているフォントが違うため、テキストの幅に違いが出る場合があるこ
+と、出力できない文字があることである。フォント以外のグラフィッ
+クスやパターンなどに関しては、問題なく出力できる。</p>
+
+<!-- /PTTDISCUSSION -->
+<br>
+
+<hr>
+<!-- PTTSPECIAL -->
+<!-- /PTTSPECIAL -->
+</body>
+</html>

@@ -1,0 +1,198 @@
+<!DOCTYPE HTML  PUBLIC  "-//W3C//DTD HTML 3.2//EN">
+<!-- YAMAUCHI Hitoshi's Page   -->
+<!-- Copyright (C) By YAMAUCHI Hitoshi -->
+<html>
+<head>
+<title># 197 PTT (in Japanese)</title>
+<META http-equiv="Content-type" content="text/html;charset=EUC-JP">
+<META name="Author" content="YAMAUCHI Hitoshi">
+</head>
+
+<body>
+<h2>
+<!-- PTTNUMBER -->
+第 197 回 PTT のお知らせ
+<!-- /PTTNUMBER -->
+</h2>
+
+<hr>
+<!-- PTTDATE -->
+日時: 1994年 5月26日 (木) 18:30 から 
+<!-- /PTTDATE -->
+<hr>
+<!-- PTTPLACE -->
+場所: 慶應義塾大学理工学部 25-601 教室
+<!-- /PTTPLACE -->
+東横線日吉駅慶応大学側の出口(東側)を出て，東横線に沿って左(渋谷方向)へ
+行く． 仲の谷という交差点(仏具屋が目印)を右に(中華料理屋と民家の間の道)
+曲がり，2〜3分で理工学部の表札が見えるので，そこの左手の坂を登る．教室
+は25棟の6階．
+<hr>
+<!-- PTTTALKER -->
+話者： 野呂 昌満 (南山大・経営学部・情報管理学科)
+<!-- /PTTTALKER -->
+<hr>
+<!-- PTTTHEMA -->
+題目： 命令実行の計数過程に基づくソフトウェア信頼度成長モデル
+<!-- /PTTTHEMA -->
+<hr>
+<!-- PTTABSTRACT -->
+概要： 
+ソフトウェアの命令の実行数を計数過程で表現することによって信頼度を定義
+する。さらに、命令と故障を数種類に分類してモデルを詳細化する。得られた
+信頼度成長モデルを用いて、データ抽象化がソフトウェアの信頼度に与える影
+響について考察する。その結果、ソフトウェア開発において定説となっている
+いくつかの事実を仮定すれば、データ抽象化技法がソフトウェアの信頼度を高
+めるために有用であることを解析的に示す。提案するモデルの妥当性について
+議論し、モデルが非定常ポアソン過程モデルの1つである指数型モデルを詳細
+化したものであることを示す。
+<!-- /PTTABSTRACT -->
+<hr>
+食事: 今回はありません．
+<pre>
+差出人(幹事):
+〒184 東京都小金井市中町2-24-16 
+東京農工大学 工学部 電子情報工学科
+コンピュータサイエンスコース 
+並木美太郎
+Tel. 0423-81-4221 ext.526
+namiki@cc.tuat.ac.jp
+</pre>
+<hr>
+<h2>
+第 197 回 PTTメモ
+</h2>
+
+<hr>
+日時: 1994年 5月26日 (木) 18:30 〜 19:30
+<hr>
+場所: 慶應義塾大学理工学部 25-601 教室         
+<hr>
+題目: 命令実行の計数過程に基づくソフトウェア信頼度成長モデル
+<hr>
+話者: 野呂 昌満 (南山大・経営学部・情報管理学科)
+<hr>
+<!-- PTTPRESENCE -->
+出席者: 
+佐口 泰之,
+伊知地 宏(富士ゼロックス),
+岡部 宣夫(横河電機),
+田中 淳裕(NEC),
+石畑 清(明大),
+多田 好克(電通大),
+寺田 実,
+岩崎 英哉,
+立山 義祐,
+小川 宏高,
+田中 哲朗(東大),
+並木 美太郎,
+田所 里夏(農工大),
+大駒 誠一,
+遠山 元道,
+佐々木 崇郎,
+馬上 博樹,
+田中 健次郎,
+飯島 正(慶大)
+<!-- /PTTPRESENCE -->
+, 以上 19名
+<hr>
+<!-- PTTDISCUSSION -->
+<pre>
+概  要:
+ソフトウェアの開発・管理工程を支援する目的で、ソフトウェアの品質
+を定量的に把握するために、ソフトウェア信頼度成長モデルが提案され
+てきた[GOE79, JEL72, MUS80, OHB84, TOH89, YAM85]。これらのモデル
+の多くは、ソフトウェアをブラックボックスとしてとらえ、故障に関す
+る挙動を巨視的に論じたものが多い。非定常ポアソン過程モデルを例に
+とるならば:
+	1) 故障の計数過程に基づいている、
+	2) 故障を分類していない、
+などの特徴が指摘できる。これはモデルを簡素なものにし、その利用を
+容易にする特長と考えられる反面、対象としているソフトウェアの構造
+を考慮していないという欠点とも考えられる。
+
+他方、近年、ソフトウェア工学の分野では、品質の高いソフトウェアを
+開発することを目指して、オブジェクト指向パラダイムに関する研究が
+活発に行なわれ、その研究成果を、実際のプロジェクトに応用する試み
+もなされている [HAR89, SEI86]。オブジェクト指向が目指すものの1つ
+にデータ抽象化の概念[LIS74]がある。オブジェクトはデータ抽象化の単
+位となり、内部のデータ構造にアクセスするための操作を限定すること
+によって、内部データへの不用意なアクセスを防ぐ。抽象データである
+オブジェクトの集合として設計・実現されたソフトウェアは、信頼性の
+高いものとなると考えられている。すなわち、良い構造を持つソフトウェ
+アは品質も良い、という考えがオブジェクト指向パラダイムの1つの柱で
+ある。
+
+ソフトウェアの構造の優劣がその故障に関する挙動に影響を及ぼすなら
+ば、 ソフトウェア信頼度成長モデルにおいて、構造の優劣はモデルの推
+定すべきパラメータ値の差として顕在化する。 従来のモデルは、 故障
+の挙動を外部から観察して作成されたものなので、 それぞれのパラメー
+タは構造の優劣との因果関係を示すものではない。したがって、 パラメー
+タの推定の結果からは、 構造の優劣を詳細に議論することはできない。
+結果として、モデルの用途は、残存フォールト数の推定が主なものとな
+る。これに対して、ソフトウェアの構造を考慮してモデルを作成した場
+合、そのモデルのパラメータ群は必然的に構造の優劣を説明するものに
+なる。このようなモデルは、総フォールト数の推定に用いられるだけで
+はなく、故障を引き起こす原因を説明できる力をも持つと考えられる。
+故障を引き起こす原因を故障の挙動から推察できれば、開発プロセスへ
+のフィードバック等の工程管理[BAS89]にも利用できる事になる。
+
+以上の議論をふまえて、筆者らは、ソフトウェアの構造に基づくソフトウェ
+ア信頼度成長モデルを提案してきた。筆者らのモデルの特長は:
+	1. 命令の実行数が計数過程に従うという仮定に基づくものである、
+	2. 命令をソフトウェアの構造に基づいて分類し、その分類を考
+	   慮して作成したものである、
+の2点である。ここでは、先に提案したモデル[NOR92]の理論的整合性を
+重視して定式化しなおした、モジュール構造に基づくソフトウェア信頼
+度成長モデルについて述べる。
+
+[BAS89] V. R. Basili, "Software Development: A Paradigm for the Future,"
+	Proc.COMPSAC'89, pp.471-485.
+[BOO86] G. Booch, "Software Engineering with Ada," 2nd ed.
+	Menlo Park, CA: Benjamin/Cummings Pub. Co., 1987.
+[GOE79] A. L. Goel and K. Okumoto, 
+	"Time-Dependent Error Detection Rate Model for Software
+	Reliability and Other Performance Measures,''
+	IEEE Trans. Reliability, R-28, 1979, pp.206-211.  
+[HAR89] W. H. Harrison and P. F. Sweeney, 
+	"Good News, Bad News: Experience Building aSoftware 
+	Development Environment Using the Object-Oriented Paradigm,"
+	Proc. OOPSLA'89, pp.85-94.  
+[JEL72] Z. Jelinski and P. Moranda, 
+	Statistical Computer Performance Evaluation in
+	Software Reliability Research, W. Freiberger Ed., NY: Academic
+	Press, Inc., 1972.
+[LIS74] B. Liskov and S. Zilles,
+	"Programming with Abstract Data Types," SIGPLAN Notices, 
+	Vol.9, No.4, April 1974, pp.50-59.
+[MUS80] J. D. Musa, "The Measurement and Management of Software 
+	Reliability: How Good Are They and How Can They Be Improved?,"
+	IEEE Trans. Soft. Eng., SE-6, No.9, 1980, pp.489-500.
+[NOR92] 野呂昌満, 澤木勝茂, 
+	"モジュール構造に基づくソフトェア信頼度成長モデル,"
+	ソフトウェア技術者協会ソフトウェアシンポジウム'92論文集, 
+	pp.B-15-B-20.
+[OHB84] M. Ohba, "Software Reliability Analysis Models,"
+	IBM J. Res. & Dev., Vol.28, pp.428-443, 1984.  
+[SEI86] E. Seidewitz and M. Stark,
+	"Towards an Object-Oriented Software Development Methodology,"
+	Proc. Ada Applications for the Space Station, June 1986.  
+[TOH89] Y. Tohma et al.
+	"Structural Approach to the Estimation of the
+	Number of Residental Software Faults Based on the Hyper-Geometric
+	Distribution," IEEE Trans. Soft. Eng., SE-15, No.3,1989, pp.345-355.
+[YAM85] S. Yamada and S. Osaki, 
+	"Software Reliability Growth Modeling: Models and Applications,"
+	IEEETrans. Soft. Eng., SE-11, No.12, Dec. 1985, pp.1431-1437.
+</pre>
+<!-- /PTTDISCUSSION -->
+<br>
+
+農工大の並木です。198回PTTのお知らせをお送りします。198回は東工大にて、
+越塚先生にご発表頂きます。
+
+<hr>
+<!-- PTTSPECIAL -->
+<!-- /PTTSPECIAL -->
+</body>
+</html>

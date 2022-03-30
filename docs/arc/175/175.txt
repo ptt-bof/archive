@@ -1,0 +1,125 @@
+<!DOCTYPE HTML  PUBLIC  "-//W3C//DTD HTML 3.2//EN">
+<!-- YAMAUCHI Hitoshi's Page   -->
+<!-- Copyright (C) By YAMAUCHI Hitoshi -->
+<html>
+<head>
+<title># 175 PTT (in Japanese)</title>
+<META http-equiv="Content-type" content="text/html;charset=EUC-JP">
+<META name="Author" content="YAMAUCHI Hitoshi">
+</head>
+
+<body>
+<h2>
+<!-- PTTNUMBER -->
+第 175 回 PTT のお知らせ
+<!-- /PTTNUMBER -->
+</h2>
+
+<hr>
+<!-- PTTDATE -->
+日時: 1992年 5月 21日 (木)  18:30 から
+<!-- /PTTDATE -->
+<hr>
+<!-- PTTPLACE -->
+場所: 電気通信大学情報工学科AVホール (西9号館 3階)
+<!-- /PTTPLACE -->
+      新宿駅より京王線，調布駅(特急で2つ目，15分) 北口
+      下車，北西方向徒歩15分，電気通信大学西地区キャン
+      パスの南西端にある白い建物; 甲州街道(国道20号線)
+      下石原交差点の北20メートルに西門あり．
+<hr>
+<!-- PTTTALKER -->
+話者：
+<!-- /PTTTALKER -->
+<hr>
+<!-- PTTTHEMA -->
+題目：
+<!-- /PTTTHEMA -->
+<hr>
+<!-- PTTABSTRACT -->
+概要：
+<!-- /PTTABSTRACT -->
+<hr>
+食事:
+<pre>
+
+</pre>
+<hr>
+<h2>
+第 回 PTTメモ
+</h2>
+
+<hr>
+日時: 
+<hr>
+場所: 
+<hr>
+題目:
+<hr>
+話者: 
+<hr>
+<!-- PTTPRESENCE -->
+出席者: 
+        
+<!-- /PTTPRESENCE -->
+<hr>
+概要：<br>
+<hr>
+<!-- PTTDISCUSSION -->
+質疑応答:
+<!-- /PTTDISCUSSION -->
+<br>
+
+<hr>
+<!-- PTTSPECIAL -->
+<!-- /PTTSPECIAL -->
+</body>
+</html>
+
+場所: 
+
+話題1: NEmacs における，漢字の読み情報をもった
+		日本語モードの製作
+
+話者: 畠山 勉 (電通大)
+
+内容: NEmacs (日本語 Emacs) 上に，漢字の読み情報をもっ
+      た日本語モードを製作した．かな漢字変換で入力され
+      たときの読み情報を持っているので，例えば任意の漢
+      字のポジション付近にカーソルをサーチで移動するの
+      に漢字に変換することなく，漢字の読みのかなでイン
+      クリメンタルサーチすることができる．
+
+話題2: NMUをInterViewsで作ろうとしている話
+
+話者: 山本 剛 (電通大)
+
+内容: 流れていかないUnix環境(No More Unix)をInterViews
+      3.* を使って作成中である．使い勝手，処理速度など
+      について述べる．
+
+話題3: Ev-serverを作った話
+
+話者: 赤池 英夫 (電通大)
+
+内容: X サーバから得られるイベントの時系列に沿った保管， 
+      取り出しを行なうツール(Ev-server)を作成した. ネッ
+      トワークを介して Ev-server を利用することにより，
+      ユーザの行動を分析するためのアプリケーションが構
+      築可能となった．こういったアプリケーションにはユ
+      ーザの打鍵速度や, 作業対象ウィンドウの時間変化な
+      どを知るものがある.
+
+食事: 今回はありません．調布駅周辺にファーストフード，
+      コンビニエンスストアがあります．
+
+次々回: 1992年 6月 18日 (木) 慶應大 (予定)
+
+	      葉書の残りは   枚です
+
+差出人(幹事):
+113  文京区本郷 7-3-1
+     東京大学工学部計数工学科  岩崎英哉
+     03-3812-2111  ext. 7411
+     iwasaki@wadalab.t.u-tokyo.ac.jp
+

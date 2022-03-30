@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+<head>
+<!-- copyright (c) 2008- Koichi Sasada.  All rights reserverd.  -->
+<!-- copyright (c) 2006 Kazutaka Maruyama.  All rights reserverd.  -->
+<!-- copyright (c) 2004 Kazuhiko Kakehi.  All rights reserverd.  -->
+<!-- original design by YAMAUCHI Hitoshi -->
+
+<title>Programming Tools and Techniques (in English)</title>
+<meta Http-Equiv="Content-Type" Content="text/html; charset=us-ascii">
+<meta Http-Equiv="Content-Style-Type" Content="text/css;">
+</head>
+<body bgcolor="#ffffff" text="#000000" 
+      link="#0000EE" vlink="#551A8B" alink="#FF0000">
+
+  <h1>PTT: Programming Tools and Techniques</h1>
+  <p><a href='http://ptt.prosym.jp'>New URL: ptt.prosym.jp</a>.  <a href="index.html.ja">To Japanese page.</a></p>
+  <hr>
+  <p><u><b>We Congratulate Ourselves on Holding the 300th Talk on May 2004!</b></u>
+  </p>
+  <p>PTT is a "birds of a feather" conference on programming, tools and techniques.  It has a long and honorable history, starting from April 1976, and we held the 300th talk on May 2004!!  This conference will be held about once a month at one of six places in <i>round-robin</i> --- University of Tokyo (Hongo), Tokyo Institute of Technology (Ookayama), Keio University (Yagami-Hiyoshi), Waseda University (Shin-Okubo), University of Electro-Communications (Chofu), Tokyo Univ. of Agriculture &amp; Technology (Higashi-Koganei).
+  </p>
+  <p>We invite a speaker or speakers from wide range of research and techical areas.  You can have a look at topics which are interesting but you are unfamiliar with.  Or, you can engage in deep and fruitful discussion on the talk which is close to your research areas.  
+  </p>
+  <p>Around 20 persons gather every time.  This makes the atmosphere small, comfortable and quite fun to discuss.  We do not charge any fee.  We always welcome participation not only from universities and research institutes, but also from industry.  Please feel free to join us when the talk is of your interest.  
+  </p>
+  <p>
+  For detail, please have a look at PTT's <a href="index-j.html">Japanese page</a>; or send an email to <tt>ptt-ml-admin __(at-mark)__ de.cs.titech.ac.jp</tt> (anti-spammed).  
+
+  <hr>
+  <address>
+    $Date:: 2008-08-02 21:10:10 +0900#$<br />
+    Copyright (C) 1999 YAMAUCHI Hitoshi, (C) 2004 Kazuhiko KAKEHI, (C) 2006 Kazutaka Maruyama (C) 2008 Koichi Sasada (C) 2012- Yoshitaka Arahori<br />
+  ptt-ml-admin __(at-mark)__ de.cs.titech.ac.jp
+  </address>      
+</body>
+</html>

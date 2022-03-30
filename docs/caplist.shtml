@@ -1,0 +1,61 @@
+<!DOCTYPE HTML  PUBLIC  "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+<TITLE>History of CAP (in Japanese)</TITLE>
+</HEAD>
+<BODY>
+
+PTT の第 255 回記念において，会場にて山内が PTT memoranda と題して PTT 
+の発表リストを眺めるという発表を行いました．その際，PTT の前身の CAP 
+という回があったという話題がでました．今回，前野先生から CAP (Computer
+Aided Programming) の記録を頂きましたので，ここに記録します．
+
+<hr>
+
+<pre>
+History of CAP (Computer Aided Programming) meeting
+  昭和48年度(1973年6月3日に第1回が東大で開かれています。)
+    主査 井上謙蔵、幹事 筧 かつ彦、委員11名
+
+1973.6   プログラム最適化例                           河田(富士通)  東大
+     7   Cross-Assembler(中西), Toward a Programming Laboratory(前野) 富士通
+     9   Syntax error処理(井上), Software Enginnering : Bauer (前野)  東工大
+    10   コンパイラ記述言語 CWL                       大駒          慶応
+    11   SNOBOL4 処理システム                         河野(慶応)    東大
+    12   LISP implementation (Bobrow model)           島田(ETL)     東工大
+1874.1   PLAN7処理システム                            武市(東大)    慶応
+     2   FORTUNEの紹介                                木村(東工大)  東大
+      
+1974.3    STAGE II on Hitac-10                         前野          東工大
+     4    STAGE II on Hitac-10                         前野          ETL
+     5    FL                                           広瀬、宇都宮  慶応
+     6    Dataless Programming                         松田          立教
+     7    MPL (数理計画法向けの言語？)                 有沢          東工大
+     9    帰朝報告(MIT)                                和田          ETL
+    10    アセンブリプログラムの変換                   内田          慶応
+    11    LISP S-M変換                                 中西          東大
+    12    SPOT                                         紫合(NEC)     立教
+1975.1    LISP aid                                     石井(博)      東工大
+     2    LISP editor                                  長谷川        ETL
+     3    PL-TT の経験                                 辻(東工大)    慶応
+     4    Structured Programming の 2,3の方法          落水(静岡大)  東大
+     5    P. P. (pretty printer ?)                     和田          立教
+     6    CMUの近況、SIX12                             藤林(NEC)     東工大
+     7    CAFT (教育用FORTRAN)                         大駒、原田、中西  慶応
+     9    LISP debugging                               黒川(東芝)    ETL
+    10    PLAN その後                                  前野          東大
+    11    SPF macro (アセンブラ用SPマクロ)             河野(三井銀行) 立教
+    12    CAPはいかにあるべきか                        和田          東工大
+1976.1    Dynamic Run-time Opitimization               原田          慶応
+     2    PL/Iの pretty print                                        ETL
+     3    Structured Fortran (Westran)                 真野(ETL)     東大
+</pre>
+
+<hr>
+<address>
+2000 山内 斉 (YAMAUCHI Hitoshi)<BR>
+$Date:: 2008-06-13 06:42:13 +0900#$
+</address>
+
+</BODY>
+</HTML>

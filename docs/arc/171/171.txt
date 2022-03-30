@@ -1,0 +1,128 @@
+<!DOCTYPE HTML  PUBLIC  "-//W3C//DTD HTML 3.2//EN">
+<!-- YAMAUCHI Hitoshi's Page   -->
+<!-- Copyright (C) By YAMAUCHI Hitoshi -->
+<html>
+<head>
+<title># PTT (in Japanese)</title>
+<META http-equiv="Content-type" content="text/html;charset=EUC-JP">
+<META name="Author" content="YAMAUCHI Hitoshi">
+</head>
+
+<body>
+<h2>
+<!-- PTTNUMBER -->
+第  回 PTT のお知らせ
+<!-- /PTTNUMBER -->
+</h2>
+
+<hr>
+<!-- PTTDATE -->
+日時: 
+<!-- /PTTDATE -->
+<hr>
+<!-- PTTPLACE -->
+場所: 
+<!-- /PTTPLACE -->
+<hr>
+<!-- PTTTALKER -->
+話者：
+<!-- /PTTTALKER -->
+<hr>
+<!-- PTTTHEMA -->
+題目：
+<!-- /PTTTHEMA -->
+<hr>
+<!-- PTTABSTRACT -->
+概要：
+<!-- /PTTABSTRACT -->
+<hr>
+食事:
+<pre>
+
+</pre>
+<hr>
+<h2>
+第 回 PTTメモ
+</h2>
+
+<hr>
+日時: 
+<hr>
+場所: 
+<hr>
+題目:
+<hr>
+話者: 
+<hr>
+<!-- PTTPRESENCE -->
+出席者: 
+        
+<!-- /PTTPRESENCE -->
+<hr>
+概要：<br>
+<hr>
+<!-- PTTDISCUSSION -->
+質疑応答:
+<!-- /PTTDISCUSSION -->
+<br>
+
+<hr>
+<!-- PTTSPECIAL -->
+<!-- /PTTSPECIAL -->
+</body>
+</html>
+
+PTT の幹事の岩崎@東大です．
+
+今月のPTTは，東工大です．
+
+-------------------------------------------------------------
+
+　 　　　　第 171 回 PTT のお知らせ
+
+　---　Programming Tools and Techniques ---
+
+日時: 1992年 1月 23日 (木)  18:30 から
+
+場所: 東京工業大学 大岡山西7号館
+      情報科学科ゼミ室 (204号室)
+      (東急大井町線，目蒲線大岡山駅下車すぐ．)
+
+話題: ミ−ハ言語講座 第２弾 -- Lazy ML --
+
+話者: 松田裕幸(東工大)
+
+内容: 前回のSchemeに引続き, 新しい言語の紹介を行ないます. 前回は特に
+      断りませんでしたが, ミ−ハといっても決して紹介する言語そのものが
+      ミ−ハだと言っているのではないので誤解なきようお願いします. そうで
+      はなくて, これを聞いたら一応それを知っているかのような顔をできる,
+      その程度のノリでやっています.
+      さて, 表題は Lazy ML となっていますが, 実は話者自身もその全容を理解
+      はしていません. Lazy MLを書いたのはこの手の言語の代表格として挙げて
+      あるにすぎず, 実際はGofer((c) Mark P. Jones)という小さな言語を実演を
+      交えながら紹介するつもりです.
+      この一族の特徴は, (1) 純粋関数型言語 (2) 型あり + Overloading機能
+      (3) 型推論 (4) 遅延評価機構 といったところにあります. Goferは一応
+      これらの機能を持ち, かつ, 処理系も軽くなっています.
+      具体的な内容はまだ未定ですが, 純粋関数型じゃこんなことはできないだ
+      ろうと思われそうなやつをどうプログラムするのかとか, Lazy MLのような
+      言語があったら何がうれしいのか, そんなところをかいつまんで話してみた
+      いと思っています.
+
+食事: 会場の目の前にある学食が19時30分まで営業して
+      いますので，そちらを御利用ください． (学食で
+      テイクアウトすることも可能です．) 駅前にはマ
+      クドナルドもあります．出前を御希望の方は大野
+      (hohno@is.titech.ac.jp)までメイル，あるいは
+      山口(03-3726-1111 ext 3205) まで電話で，当日
+      の午後5時までにお願い致します．
+
+次々回: 1992年 2月 20日 (木) 農工大 (予定)
+
+         ・葉書の残りは   枚です．
+
+差出人 (幹事):
+113　文京区本郷 7-3-1
+　　 東京大学工学部計数工学科  岩崎英哉
+　　 03-3812-2111  ext. 7411
+　　 iwasaki@wadalab.t.u-tokyo.ac.jp

@@ -1,0 +1,222 @@
+<!DOCTYPE HTML  PUBLIC  "-//W3C//DTD HTML 3.2//EN">
+<!-- YAMAUCHI Hitoshi's Page   -->
+<!-- Copyright (C) By YAMAUCHI Hitoshi -->
+<html>
+<head>
+<title># PTT (in Japanese)</title>
+<META http-equiv="Content-type" content="text/html;charset=EUC-JP">
+<META name="Author" content="YAMAUCHI Hitoshi">
+</head>
+
+<body>
+<h2>
+<!-- PTTNUMBER -->
+第 174 回 PTT のお知らせ
+<!-- /PTTNUMBER -->
+</h2>
+
+<hr>
+<!-- PTTDATE -->
+日時: 1992年 4月 16日 (木)  18:30 から
+<!-- /PTTDATE -->
+<hr>
+<!-- PTTPLACE -->
+場所: 東京大学工学部 6号館大会議室
+<!-- /PTTPLACE -->
+(地下鉄千代田線根津駅下車徒歩10分．または地下鉄丸ノ内線本郷三丁目駅下
+車徒歩10分)
+
+<hr>
+<!-- PTTTALKER -->
+話者： 木下 佳樹 (電総研)
+<!-- /PTTTALKER -->
+<hr>
+<!-- PTTTHEMA -->
+題目： 依存型とモジュールについて
+<!-- /PTTTHEMA -->
+<hr>
+<!-- PTTABSTRACT -->
+概要： 型理論における依存型の概念を用いて，プログラムモジュールを説明
+する. また, このアプローチに基づいて設計しているモジュラーな構成的プロ
+グラミング言語 Maya を紹介する.
+<!-- /PTTABSTRACT -->
+<hr>
+食事: 17:00までに，03-3812-2111 ext.7411 岩崎迄．
+
+<hr>
+<pre>
+次々回: 1992年 5月 21日 (木) 電通大 (予定)
+
+	      葉書の残りは   枚です
+
+差出人(幹事):
+113  文京区本郷 7-3-1
+     東京大学工学部計数工学科  岩崎英哉
+     03-3812-2111  ext. 7411
+     iwasaki@wadalab.t.u-tokyo.ac.jp
+</pre>
+<h2>
+第 174 回 PTTメモ
+</h2>
+
+<hr>
+日時: 1992年4月16日
+<hr>
+場所: 東京大学工学部6号館大会議室
+<hr>
+題目: 依存型とモジュール
+<hr>
+話者: 
+<hr>
+出席者:
+<!-- PTTPRESENCE -->
+和田 英一 (富士ゼロックス),
+伊知 地宏 (富士ゼロックス),
+佐口 泰之 (富士ゼロックス),
+岩崎 英哉 (東大・工),
+寺田 実 (東大・工),
+木下 毅 (東大・工),
+山下 伸夫 (東大・工),
+徐 良為 (東大・工),
+田中 哲朗 (東大・人工物),
+竹内 幹雄 (東大・工),
+石井 裕一郎 (東大・工),
+植村 晃広 (NTT),
+飯野 康平 (東大・理),
+中島 震 (NEC),
+金子 敬一 (東大・工),
+石畑 清 (明大),
+尾上 能之 (東大・工),
+田中 久美子 (東大・工),
+田中 淳裕 (NEC)
+<!-- /PTTPRESENCE -->
+<hr>
+<!-- PTTDISCUSSION -->
+質疑応答:<br>
+
+<p>型理論の依存型の概念を説明し、依存型によってプログラム・モジュール
+の記述を行なう方法を説明した。また、その考えに基づいて設計している仕様
+記述／プログラミング言語Ｍａｙａによる仕様記述およびプログラムの例を紹
+介した。</p>
+
+<pre>
+おまけ	質問の時に、この方面の入門書をきかれましたが、その時詳しい 
+	reference を出せなかったので、ここで紹介しておきます。
+
+	まず、
+
+	@book{NPS90,
+	author={{Bengt Nordstr\"{o}m, Kent Petersson and Jan M.\ Smith}},
+	title={Programming in Martin-L\"{o}f's Type Theory, An Introduction},
+	publisher={Oxford University Press},
+	city={Oxford},
+	year=1990}
+
+	は Martin-L\"{o}f の型理論を使うための入門書です。
+	Martin-L\"{o}f の型理論といっても実はいろいろバージョンがある
+	のですが、この本は、それらの関係をある程度あきらかにしてくれま
+	す。
+
+	また、
+
+	@book{Thompson91,
+	author="Simon Thompson",
+	title={Type theory and functional programming},
+	publisher={Addison-Wesley},
+	year=1991}
+
+	も応用のための入門書ですが、特に関数型プログラミングへの応用に
+	ついて、NPS90 よりもいろいろな話題を取り扱っています。
+
+	Martin-L\"{o}f の型理論とはちょっと毛色が違う別の系統のものと
+	して、型付きλ計算を拡張した体系がいろいろあります。次の論文は
+	それを見とおしよくまとめたものです。
+
+	@article{Barendregt91,
+	author="H.P.\ Barendregt",
+	title={Introduction to generalised type systems},
+	journal={Journal of Functional Programming},
+	volume="1",
+	number="2",
+	pages="124-154",
+	year=1991}
+
+	また、コンピュータ・ソフトウェアの連載
+
+	@article{Tatsuta91-1,
+	author="龍田真",
+	title={型理論I},
+	journal={コンピュータソフトウェア},
+	volume="8",
+	number="1",
+	pages="25--33",
+	year=1991}
+
+	@article{Tatsuta91-2,
+	author="龍田真",
+	title={型理論II},
+	journal={コンピュータソフトウェア},
+	volume="8",
+	number="2",
+	pages="40--46",
+	year=1991}
+
+	@article{Tatsuta91-3,
+	author="龍田真",
+	title={型理論III},
+	journal={コンピュータソフトウェア},
+	volume="8",
+	number="3",
+	pages="2--8"
+	year=1991}
+
+	@article{Tatsuta91-4,
+	author="龍田真",
+	title={型理論IV},
+	journal={コンピュータソフトウェア},
+	volume="8",
+	number="4",
+	pages="56--68",
+	year=1991}
+
+	は日本語によるサーベイです。型理論そのものの紹介で、関数型プロ
+	グラミングとの関係についてはあまり扱われていませんが、
+	Martin-Lo\"{o}f の系統とgeneralized type system の系統の（こち
+	らはλcube という、ちょっと制限された形ですが）両方を扱ってい
+	ます。
+
+	最新の話題を知るための一つの方法に各種メイリングリストに加入す
+	ることがあります。Types mailing list は型理論のためのもので、
+	Fj のニュースにも fj.mail-list.types ニュースグループとして流
+	されています。また、sonoteno mailing list は主に日本国内のもの
+	で、「その手の」ことの話題を流すためのものです。どの手のという
+	のはぜんぜん決まっていませんが、型理論、論理学、圏論などの計算
+	機科学への応用に興味を持つ人がはいっているようです。以下に、こ
+	れらのメイリングリスト加入の連絡先を記します。Types の方は外国
+	ですから、当然ながら英語で書かないと通じません :-)。
+
+	Types			types-request@theory.lcs.mit.edu
+				（これは Fj のニュースになっているから
+				それを見ることができれば、そっちの方が
+				便利）
+
+	Sonoteno		sonoteno-request@sfc.keio.ac.jp
+
+
+							木下 佳樹 記
+- -- 
+KINOSHITA Yoshiki [KINOSHITA is my family name]
+Computer Language Section, Computer Science Division
+Electrotechnical Laboratory, 1-1-4 Umezono, Tsukuba, Ibaraki 305 Japan
+</pre>
+<!-- /PTTDISCUSSION -->
+<br>
+
+<hr>
+<!-- PTTSPECIAL -->
+<!-- /PTTSPECIAL -->
+</body>
+</html>
+
+
+
