@@ -1,38 +1,38 @@
 <html>
 <head><title> #270th PTT (in Japanese)</title></head>
 <body>
-<h1> $BBh(B 270 $B2s(B PTT $B$N$*CN$i$;(B </h1>
+<h1> 第 270 回 PTT のお知らせ </h1>
 <hr>
-$BF|;~(B: 2001$BG/(B6$B7n(B28$BF|(B ($BLZ(B) 18:30 $B$+$i(B 
+日時: 2001年6月28日 (木) 18:30 から 
 <hr>
 <pre>
-$B>l=j(B: $B7DXf5A=NBg3XM}9)3XIt!JLp>e%-%c%s%Q%9!K(B
-$B!!!!!!(B25$BEo(B601$B65<<(B
+場所: 慶應義塾大学理工学部（矢上キャンパス）
+　　　25棟601教室
 
-$B!!!!!!El5^El2#@~F|5H1X$h$jELJb(B15$BJ,DxEY(B
-      ($B9KEg39F;$r=BC+J}8~$K?J$_!$#2$D$a$N?.9f!JCg$NC+8r:9E@!K(B
-$B!!!!!!$G1&@^!%:Y$$F;$KF~$C$FD>?J$7$F$/$@$5$$!%$7$P$i$/9T$/$H!$(B
-$B!!!!!!Lp>e%-%c%s%Q%9F~$j8}$N4K$$:dF;$,$"$j$^$9!%(B
-$B!!!!!!CO?^$O(B<a href="http://www.st.keio.ac.jp/contents/images/Keio-Map-j.pdf">http://www.st.keio.ac.jp/contents/images/Keio-Map-j.pdf</a>$B$K$"$j$^$9!%(B
-$B!!!!!!$b$7$/$O!$(BJR$B2#?\2l@~!$?7@n:j1X$h$j%?%/%7!<$G(B5$BJ,DxEY!%!!!!!!(B
+　　　東急東横線日吉駅より徒歩15分程度
+      (綱島街道を渋谷方向に進み，２つめの信号（仲の谷交差点）
+　　　で右折．細い道に入って直進してください．しばらく行くと，
+　　　矢上キャンパス入り口の緩い坂道があります．
+　　　地図は<a href="http://www.st.keio.ac.jp/contents/images/Keio-Map-j.pdf">http://www.st.keio.ac.jp/contents/images/Keio-Map-j.pdf</a>にあります．
+　　　もしくは，JR横須賀線，新川崎駅よりタクシーで5分程度．　　　
 </pre>
 <hr>
-$BBjL\!'LnD;$+$i(BEPO$B$X(B - $B$=$NGX7J$H<BAu$K$D$$$F(B
+題目：野鳥からEPOへ - その背景と実装について
 <hr>
-$BOC<T!'9-@%M:Fs!JElKL8x1WJ82JBg3X!K(B
+話者：広瀬雄二（東北公益文科大学）
 <hr>
-$B35MW(B: <br>
- LaTeX$B869F$NF~NO$K4X$o$kA`:n$rE}9gE*$K;Y1g$9$k(B Emacs $B%(%G%#%?>e$N%a%8%c!<(B
-$B%b!<%I!VLnD;!W$r3+H/$7$F$-$?!#!VLnD;!W$O(BLaTeX$B$KFC2=$7$?;Y1g%b!<%I$G$"(B
-$B$k$,!"$=$3$K@9$j9~$^$l$?;Y1g5!G=$O(BLaTeX$B0J30$N%^!<%/%"%C%W8@8l$G$bA4$/(B
-$BF1$85!9=$GJT=88zN($r>e$2$k$?$a$KLrN)$D$3$H$,M=A[$5$l!";v<B(B Texinfo $B$d(B 
-HTML $B$N;Y1g4D6-$O!VLnD;!W$K%O!<%I%3!<%I$5$l$?(BLaTeX$BMQ$N%Q%?!<%s$r<jD>$7(B
-$B$9$kDxEY$N<j4V$G<BAu$G$-$?!#(B
+概要: <br>
+ LaTeX原稿の入力に関わる操作を統合的に支援する Emacs エディタ上のメジャー
+モード「野鳥」を開発してきた。「野鳥」はLaTeXに特化した支援モードであ
+るが、そこに盛り込まれた支援機能はLaTeX以外のマークアップ言語でも全く
+同じ機構で編集効率を上げるために役立つことが予想され、事実 Texinfo や 
+HTML の支援環境は「野鳥」にハードコードされたLaTeX用のパターンを手直し
+する程度の手間で実装できた。
 <p>
- $B$5$i$K$3$N9M$($r2!$7?J$a$k$H!"%^!<%/%"%C%W8@8l$N$_$J$i$:!"%W%m%0%i%_(B
-$B%s%08@8l$NF~NOJT=8:n6H$G$b!"F1<o$N;Y1g5!9=%;%C%H$,M-MQ$KF/$/$3$H$,M=A[(B
-$B$5$l$k!#$3$l$i$N;v$rF'$^$(!"%W%m%0%i%_%s%08@8l!&%^!<%/%"%C%W8@8lA4HL$r(B
-$BBP>]$H$7F@$kJT=8;Y1g4D6-(B EPO(Editing Process Organizer) $B$r@_7W!&<BAu$7(B
-$B$?!#(B
+ さらにこの考えを押し進めると、マークアップ言語のみならず、プログラミ
+ング言語の入力編集作業でも、同種の支援機構セットが有用に働くことが予想
+される。これらの事を踏まえ、プログラミング言語・マークアップ言語全般を
+対象とし得る編集支援環境 EPO(Editing Process Organizer) を設計・実装し
+た。
 </body>
 </html>

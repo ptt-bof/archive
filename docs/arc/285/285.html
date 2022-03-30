@@ -1,154 +1,154 @@
 <html>
 <head><title> #285th PTT (in Japanese)</title></head>
 <body>
-<h1> $BBh(B 285 $B2s(B PTT $B$N$*CN$i$;(B </h1>
+<h1> 第 285 回 PTT のお知らせ </h1>
 <hr>
-$BF|;~(B: 2002$BG/(B12$B7n(B12$BF|(B ($BLZ(B) 18:30 $B$+$i(B 
+日時: 2002年12月12日 (木) 18:30 から 
 <hr>
-$B>l=j(B: $BEl5~G@9)Bg3X9)3XIt>pJs%3%_%e%K%1!<%7%g%s9)3X2J(B 7$B9fEo(B 3$B3,(B 3K$B<<(B
+場所: 東京農工大学工学部情報コミュニケーション工学科 7号棟 3階 3K室
 <pre>
-      JR$BCf1{@~El>.6b0f1XFn8}$+$i!$@>$X8~$+$C$FELJb(B8$BJ,DxEY$G$9!%(B
-      $BG@9)Bg$NElLg$K7zJ*$NG[CV?^$,$"$j$^$9!%(BWWW$B$r8+$i$l$kJ}$O!$(B
+      JR中央線東小金井駅南口から，西へ向かって徒歩8分程度です．
+      農工大の東門に建物の配置図があります．WWWを見られる方は，
       <a href="http://www.cs.tuat.ac.jp/access.html">
       http://www.cs.tuat.ac.jp/access.html
       </a>
-      $B$K0FFb?^$,$"$j$^$9(B.
+      に案内図があります.
 </pre>
 <hr>
-$BOC<T(B: $B:{ED(B $B9L0l(B($BEl5~G@9)Bg3X9)3XIt(B $BJBLZ8&(B)
+話者: 笹田 耕一(東京農工大学工学部 並木研)
 <hr>
-$BBjL>(B: Rava$B!A(BRuby$B$G=q$$$?(BJavaVM$B$NOC!A(B
+題名: Rava〜Rubyで書いたJavaVMの話〜
 <hr>
-$B35MW(B:<br>
- $B%W%m%0%i%_%s%08@8l(B Java $B$O(B JavaVM $B$K$h$j%W%i%C%H%[!<%`FHN)$J<B9T4D6-$r(B
-$BDs6!$7$F$*$j!"8=:_$^$G$K(B Sun $B$d(B IBM $B$J$I$N4k6H!"$^$?%*!<%W%s%=!<%9$K$h(B
-$B$j(B JavaVM $B$,B?$/3+H/$5$l$F$$$k!#BgH>$N(B JavaVM $B$O@-G=$r=E;k$9$k$?$a$K8@(B
-$B8l(BC $B$J$I$N%3%s%Q%$%i7?8@8l$G5-=R$5$l$F$$$k!#$^$?!"(BJava $B$G%$%s%?%W%j%?7?(B
-$B$N8@8l!"Nc$($P(B Scheme $B$N=hM}7O$J$I$r(B Java $B$G5-=R$9$k$h$&$J;n$_$b$J$5$l(B
-$B$F$$$k!#$7$+$7!"@h=R$N@-G=LL$G$NM}M3$+$i(B JavaVM $B$rB>$N%$%s%?%W%j%?7?8@(B
-$B8l$G5-=R$9$k;n$_$O>/$J$$!#(B
+概要:<br>
+ プログラミング言語 Java は JavaVM によりプラットホーム独立な実行環境を
+提供しており、現在までに Sun や IBM などの企業、またオープンソースによ
+り JavaVM が多く開発されている。大半の JavaVM は性能を重視するために言
+語C などのコンパイラ型言語で記述されている。また、Java でインタプリタ型
+の言語、例えば Scheme の処理系などを Java で記述するような試みもなされ
+ている。しかし、先述の性能面での理由から JavaVM を他のインタプリタ型言
+語で記述する試みは少ない。
 <p>
- $BK\Js9p$G$O!"%9%/%j%W%H8@8l(B Ruby $B$K$h$k(B JavaVM $B$G$"$k(B Rava $B$K$D$$$F>R2p(B
-$B$9$k!#%9%/%j%W%H8@8l(B Ruby $B$O9q;:%*%V%8%'%/%H;X8~%9%/%j%W%H8@8l$G!"5-=R(B
-$B@-$d@8;:@-$K$D$$$FDjI>$N$"$k8@8l$G$"$k!#$3$l$i$NFCD'$r$b$D(B Ruby $B$rMQ$$(B
-$B$F(B JavaVM $B$r:n@.$9$k$3$H$G!"MF0W$K(B JavaVM $B$r3+H/$G$-$k$N$G$O$J$$$+$H9M(B
-$B$($?!#8=:_(B Rava $B$O(B Java $B%/%i%9%U%!%$%k$N%m!<%I!"%P%$%H%3!<%I$N2r<a<B9T!"(B
-Ruby $B$K$h$k%M%$%F%#%V%a%=%C%I$N5-=R!&<B9T!"Nc30=hM}5!9=!"%9%l%C%I$N4IM}(B
-$B5!G=$*$h$S<B83E*$J(BJIT$B%3%s%Q%$%k5!G=$rM-$7$F$$$k!#6qBNE*$K$O<!$N9`L\$K$D(B
-$B$$$F=R$Y$kM=Dj$G$"$k!#(B
+ 本報告では、スクリプト言語 Ruby による JavaVM である Rava について紹介
+する。スクリプト言語 Ruby は国産オブジェクト指向スクリプト言語で、記述
+性や生産性について定評のある言語である。これらの特徴をもつ Ruby を用い
+て JavaVM を作成することで、容易に JavaVM を開発できるのではないかと考
+えた。現在 Rava は Java クラスファイルのロード、バイトコードの解釈実行、
+Ruby によるネイティブメソッドの記述・実行、例外処理機構、スレッドの管理
+機能および実験的なJITコンパイル機能を有している。具体的には次の項目につ
+いて述べる予定である。
 <ul>
-<li> Rava $B$N:n@.$NGX7J$H7P0^(B
-<li> Rava $B$N5!G=$HFCD'(B
-<li> Rava $B$N<BAu$HI>2A(B
-<li> Rava $B>e$G$N(B JIT $B%3%s%Q%$%i$N;n:n$HI>2A(B
-<li> $BK\3+H/$K$*$1$k@8;:@-(B
-<li> $B:#8e$NE8K>(B
+<li> Rava の作成の背景と経緯
+<li> Rava の機能と特徴
+<li> Rava の実装と評価
+<li> Rava 上での JIT コンパイラの試作と評価
+<li> 本開発における生産性
+<li> 今後の展望
 </ul>
 <hr>
-$B?);v(B: $B$"$j$^$;$s!%El>.6b0f1X6aJU$N%b%9%P!<%,!<!$ESCf$N%T!<%3%C%/(B
-      ($B%^%/%I%J%k%I$"$j(B)$B$J$I$r$4MxMQ$/$@$5$$(B.
+食事: ありません．東小金井駅近辺のモスバーガー，途中のピーコック
+      (マクドナルドあり)などをご利用ください.
 <hr>
-$BK:G/2q$N$*CN$i$;!'(B<br>
-  $B$J$*!"H/I=$N8e!"(BPTT$B$NK:G/2q$r9T$$$^$9!#(B
-$BEl>.6b0f1X<~JU$G$*E9(B($BEl>.6b0f1XKL8}!V$b$F2X;R$d!W(B)$B$rM=Ls$7$^$9$N$G!"(B
-$B=P@J$5$l$kJ}$O!"$*<j?t$G$9$,!"2<5-$^$G$4O"Mm$r(B
-12/3($B2P(B)$B$^$G$K$$$?$@$1$^$9$G$7$g$&$+!#(B
-$B3X@8!o(B3000$B!"<R2q?M!o(B6000$BDxEY$rM=Dj$7$F$$$^$9!#(B
+忘年会のお知らせ：<br>
+  なお、発表の後、PTTの忘年会を行います。
+東小金井駅周辺でお店(東小金井駅北口「もて茄子や」)を予約しますので、
+出席される方は、お手数ですが、下記までご連絡を
+12/3(火)までにいただけますでしょうか。
+学生¥3000、社会人¥6000程度を予定しています。
 <p>
-  $B=P@J$NO"Mm@h(B $B0KCNCO(B ichiji@acm.org $B$*$h$SJBLZ(B namiki@cc.tuat.ac.jp
-$B$^$G$40lJs$/$@$5$$!#BeI=<T$,0l3g$7$F$*?=$79~$_$N>l9g$K$O!$K:G/2q=P(B
-$B@J<TA40w$N;aL>$r$4O"Mm2<$5$$!#(B
+  出席の連絡先 伊知地 ichiji@acm.org および並木 namiki@cc.tuat.ac.jp
+までご一報ください。代表者が一括してお申し込みの場合には，忘年会出
+席者全員の氏名をご連絡下さい。
 <hr>
-<h2>$BBh(B285$B2s(B PTT$B%a%b(B</h2>
+<h2>第285回 PTTメモ</h2>
 <hr>
-$BF|;~(B: 2002$BG/(B12$B7n(B12$BF|(B($BLZ(B) 18:30 $B$+$i(B
+日時: 2002年12月12日(木) 18:30 から
 <hr>
-$B>l=j(B: $BEl5~G@9)Bg3X9)3XIt>pJs%3%_%e%K%1!<%7%g%s9)3X2J(B 7$B9fEo(B 3$B3,(B 3K$B<<(B
+場所: 東京農工大学工学部情報コミュニケーション工学科 7号棟 3階 3K室
 <hr>
-$B=P@J<T(B: $BJBLZH~B@O:!$IJLnM&<#!$=YF#9@G7(B($BG@9)Bg(B)$B!$(B
-        $B0KCNCO9((B($B%i%`%@?t658&(B)$B!$:48}BYG7(B($BIY;N%<%m%C%/%9(B)$B!$(B
-	$BB?ED9%9n!$NkLZ?.8c(B($BEEDLBg(B)$B!$D9?5Li(B($BAaBg(B)$B!$(B
-	$B4];30l5.!$I%EDIRO/!$I{ED=S2p!$>>:j8x5*!$EDCfE/O/(B($BElBg(B)
+出席者: 並木美太郎，品野勇治，駿藤浩之(農工大)，
+        伊知地宏(ラムダ数教研)，佐口泰之(富士ゼロックス)，
+	多田好克，鈴木信吾(電通大)，長慎也(早大)，
+	丸山一貴，疋田敏朗，副田俊介，松崎公紀，田中哲朗(東大)
 <hr>
-$BBjL\(B: Rava$B!A(BRuby$B$G=q$$$?(BJavaVM$B$NOC!A(B
+題目: Rava〜Rubyで書いたJavaVMの話〜
 <hr>
-$BOC<T(B: $B:{ED(B $B9L0l(B($BEl5~G@9)Bg3X9)3XIt(B $BJBLZ8&(B)
+話者: 笹田 耕一(東京農工大学工学部 並木研)
 <hr>
-$B35(B  $BMW!'(B
+概  要：
 <hr>
-$B!!(BRuby $B$K$h$k(B JavaVM $B$N<BAu$G$"$k(B Rava $B$r>R2p$7$?!#(B
+　Ruby による JavaVM の実装である Rava を紹介した。
 <p>
-$B!!H/I=$G$O%G%b$H$=$N<BAuJ}<0!"$=$7$FI>2A$r<($7!"=hM}B.EY$,Hs>o$KCY$$(B
-$B$3$H$r3NG'$7$?!#(B
+　発表ではデモとその実装方式、そして評価を示し、処理速度が非常に遅い
+ことを確認した。
 <p>
-$B!!$=$7$F!"=hM}B.EY$N8~>e$N$?$a$K<B83E*$K(BJIT $B%3%s%Q%$%i$r:n@.$7!"C1=c$J(B
-$B%$%s%?%W%j%?$H$7$F$N<BAu$h$j$b=hM}B.EY$,BgI}$KC;=L$5$l$?$3$H$r<($7$?!#(B
+　そして、処理速度の向上のために実験的にJIT コンパイラを作成し、単純な
+インタプリタとしての実装よりも処理速度が大幅に短縮されたことを示した。
 <p>
-$B!!$^$?!"(BRuby $B$rMQ$$$?$3$H$K$h$k@8;:@-$N8~>e$,82Cx$KI=$l$?$N$r<($7$?!#(B
+　また、Ruby を用いたことによる生産性の向上が顕著に表れたのを示した。
 <pre>
-$B<A5?1~Ez(B:
+質疑応答:
 
-Q.$B!V$V$V!W$H$$$&(B Java $B$K$h$k(B scheme $B$N<BAu$O$"$C$?$h$M!)(B
-A.$B$O$$!#%5!<%Y%$ITB-$G$7$?!#(B
+Q.「ぶぶ」という Java による scheme の実装はあったよね？
+A.はい。サーベイ不足でした。
 
-Q.$B%a%=%C%I%F!<%V%k$rL>A0$H$N%O%C%7%e%F!<%V%k$GJ];}$9$k$HCY$/$J$i$J$$$+!)(B
-A.$BCY$/$J$j$^$9$,<BAu$,3Z$J$N$G$3$&$7$^$7$?!#(B
+Q.メソッドテーブルを名前とのハッシュテーブルで保持すると遅くならないか？
+A.遅くなりますが実装が楽なのでこうしました。
 
-Q.$B%5%V%k!<%A%s%9%l%C%G%#%s%0$K$h$k2r<a<B9T$O%a%=%C%I<B9T$N%3%9%H$,$+$+(B
-$B$C$F$7$^$&$N$G$O!)(B
-A.$B$+$+$j$^$9!#$=$l$O(B JIT $B%3%s%Q%$%i$K$h$C$F2r7h$7$^$9!#(B
+Q.サブルーチンスレッディングによる解釈実行はメソッド実行のコストがかか
+ってしまうのでは？
+A.かかります。それは JIT コンパイラによって解決します。
 
-Q.case/when $B$,CY$$!"$H$N$3$H$G$9$,!"(Bcase/when $B$rJ,3d$7$F$*$$$?$iB.$/$J(B
-$B$k$N$G$O!)(B
-A.$B;W$$$D$-$^$;$s$G$7$?!#<B:]$KI>2A$7$F$_$J$$$H$o$+$j$^$;$s!#(B
+Q.case/when が遅い、とのことですが、case/when を分割しておいたら速くな
+るのでは？
+A.思いつきませんでした。実際に評価してみないとわかりません。
 
-Q.$B%i%Y%kIU$-(B break $B$J$I$G(B goto $BJ8$O;H$&$@$m$&$+$i!"$=$N$^$^(B Ruby $B$N%=!<(B
-$B%9$XJQ49$9$k$N$OFq$7$$$N$G$O!)(B
-A.Ruby $B$N9=J8(B(try/catch)$B$GBP1~$G$-$=$&$J$N$G!"B?J,Bg>fIW$8$c$J$$$+$H;W(B
-$B$$$^$9!#(B
-($BCm5-!'(BRuby $B$K$O%i%Y%kIU$-C&=PMQ(B break $B$O$"$j$^$;$s$G$7$?!#D{@5$7$^$9!K(B
+Q.ラベル付き break などで goto 文は使うだろうから、そのまま Ruby のソー
+スへ変換するのは難しいのでは？
+A.Ruby の構文(try/catch)で対応できそうなので、多分大丈夫じゃないかと思
+います。
+(注記：Ruby にはラベル付き脱出用 break はありませんでした。訂正します）
 
-Q.$B%9%l%C%I$K4X$7$F(B2$BF|$+$+$C$F$$$k$,!"2?$+LdBj$,$"$C$?$N$+!#(B
-A.java.lang.Thread $B$K$*$1$k%9%l%C%I=hM}<+BN$NM}2r$H$=$l$K=g$:$k=hM}!"$*(B
-$B$h$S4XO"$9$k%P%$%H%3!<%I$N%P%0%U%#%C%/%9$K;~4V$,$+$+$j$^$7$?!#(B
+Q.スレッドに関して2日かかっているが、何か問題があったのか。
+A.java.lang.Thread におけるスレッド処理自体の理解とそれに順ずる処理、お
+よび関連するバイトコードのバグフィックスに時間がかかりました。
 
-Q.JavaVM $B0J>e$N5!G=$O$D$1$i$l$J$$$+!)!J%m!<%I$7$?%/%i%9%U%!%$%k$,8E$$$b(B
-$B$N$KJQ$o$C$F$$$?$i%j%m!<%I$9$k$J$I!K(B
-A.$B$D$1$i$l$k$H;W$$$^$9!#%/%i%9%U%!%$%k$NF|IU$N%A%'%C%/$r$I$N%?%$%_%s%0(B
-$B$K9T$&$+!"$J$I$,>/$7G:$^$7$$$N$G$9$,!"Nc$($P(B Java $B%W%m%0%i%^$,L@<(E*$K(B
-$B%/%i%9%m!<%@$K%m!<%I$5$;$k$h$&$J5!9=$O2DG=$@$H;W$$$^$9!#(B
+Q.JavaVM 以上の機能はつけられないか？（ロードしたクラスファイルが古いも
+のに変わっていたらリロードするなど）
+A.つけられると思います。クラスファイルの日付のチェックをどのタイミング
+に行うか、などが少し悩ましいのですが、例えば Java プログラマが明示的に
+クラスローダにロードさせるような機構は可能だと思います。
 
-Q.$B%G%P%C%0$J$I$KJXMx$J5!G=$O$D$1$i$l$J$$$+!)(B
-A.$B$D$1$i$l$k$H;W$$$^$9!#9)IW$N$7$I$3$m$@$H;W$$$^$9$,!#(B
+Q.デバッグなどに便利な機能はつけられないか？
+A.つけられると思います。工夫のしどころだと思いますが。
 
-Q.$BNc$($P%9%l%C%I@Z$jBX$(%?%$%_%s%0$rA4It%f!<%6$,;XDj$9$k$h$&$K$G$-$k$H(B
-$B$+!#(B
-A.$B%9%l%C%I4IM}$r%i%&%s%I%m%S%s$KJQ$($k$H$+!"(BRuby $B$N%9%l%C%I@Z$jBX$($rDd(B
-$B;_$9$k$h$&$J$b$N$rMxMQ$9$k$J$I$7$F<B8=2DG=$@$H;W$$$^$9!#(B
+Q.例えばスレッド切り替えタイミングを全部ユーザが指定するようにできると
+か。
+A.スレッド管理をラウンドロビンに変えるとか、Ruby のスレッド切り替えを停
+止するようなものを利用するなどして実現可能だと思います。
 
-Q.VM $B$N<B9T>uBV$r2D;k2=$G$-$k$N$G$O!)!JM-MQ$+$O$o$+$i$J$$$,!K(B
-A.$B2DG=$@$H;W$$$^$9!#(BRuby$B$K$b<j7Z$K07$&$3$H$,=PMh$k(B GUI $B4D6-$,B7$C$F$-$F(B
-$B$$$k$N$G$3$l$b0U30$H<j7Z$K=PMh$k$s$8$c$J$$$G$7$g$&$+!#MQES$H$7$F$O!"%9(B
-$B%?%C%/%^%7%s$,F0$/$H$3$m$r8+$k$3$H$,=PMh$k!"$H$$$&650iMQ$G$7$g$&$+!#(B
+Q.VM の実行状態を可視化できるのでは？（有用かはわからないが）
+A.可能だと思います。Rubyにも手軽に扱うことが出来る GUI 環境が揃ってきて
+いるのでこれも意外と手軽に出来るんじゃないでしょうか。用途としては、ス
+タックマシンが動くところを見ることが出来る、という教育用でしょうか。
 
-Q.$BA49qBg2q$K!"$I$s$J%F!<%^$G=P$9$N!)(B
-A.$B8!F$Cf$G$9!#(BRuby $B$G=q$$$?$3$H$K$h$k@8;:@-$,<g$K$J$k$h$&$J5$$,$7$^$9!#(B
+Q.全国大会に、どんなテーマで出すの？
+A.検討中です。Ruby で書いたことによる生産性が主になるような気がします。
 
-Q.$B$b$C$H(Bruby$B$i$7$$:n$jJ}$OL5$$$N!)(B
-A.$B$"$k$N$+$b$7$l$^$;$s!#LO:w$7$^$9!#(BJIT $B%3%s%Q%$%k;~$N<jB3$-$N;}$AJ}$K(B
-$B>/$79)IW$7$F$"$j$^$9!#(B
+Q.もっとrubyらしい作り方は無いの？
+A.あるのかもしれません。模索します。JIT コンパイル時の手続きの持ち方に
+少し工夫してあります。
 
-Q.$B87L)$J(BJavaVM$B$r:n$m$&$H$7$?$i!"7k6I(B Ruby $B$G=q$$$F$bB>$N8@8l$G=q$$$F$b(B
-$B9T?t$H$+$+$o$i$J$$$N$G$O!)(B
-A.$B$=$&$+$b$7$l$^$;$s!#$?$@!"$d$O$j!J@-G=$H0z$-49$($N!K9b5!G=$5$,$"$k$N(B
-$B$G!"(BRuby $B$G$N=q$-0W$5$O$"$k$H;W$$$^$9!#(B
+Q.厳密なJavaVMを作ろうとしたら、結局 Ruby で書いても他の言語で書いても
+行数とかかわらないのでは？
+A.そうかもしれません。ただ、やはり（性能と引き換えの）高機能さがあるの
+で、Ruby での書き易さはあると思います。
 
-Q.$BL$<BAu%P%$%H%3!<%I$H$O!)(B
-A.$B%F%9%H$GF0$+$7$?(B Java$B%W%m%0%i%`$GMxMQ$5$l$F$$$J$$%P%$%H%3!<%I$G$9!#L$(B
-$B<BAu%P%$%H%3!<%I$,8=$l$?$i<BAu$9$k!"$H$$$&%9%?%s%9$@$C$?$N$G!#(B
+Q.未実装バイトコードとは？
+A.テストで動かした Javaプログラムで利用されていないバイトコードです。未
+実装バイトコードが現れたら実装する、というスタンスだったので。
 
-Q.$B$"$J$?$N=P<+$O!)(B
-A.$B!J2q>l$GEz$($^$7$?$,K:$l$^$7$?!K(B
+Q.あなたの出自は？
+A.（会場で答えましたが忘れました）
 </pre>
 </body>
 </html>

@@ -1,39 +1,39 @@
 <html>
 <head><title> #274th PTT (in Japanese)</title></head>
 <body>
-<h1> $BBh(B 274 $B2s(B PTT $B$N$*CN$i$;(B </h1>
+<h1> 第 274 回 PTT のお知らせ </h1>
 <hr>
-$BF|;~(B: 2001$BG/(B11$B7n(B29$BF|(B($BLZ(B) 18:30 $B$+$i(B
+日時: 2001年11月29日(木) 18:30 から
 <hr>
 <pre>
-$B>l=j(B: $BEl5~G@9)Bg3X9)3XIt>pJs%3%_%e%K%1!<%7%g%s9)3X2J(B 7$B9fEo(B 3$B3,(B 3K$B<<(B<br>
-      JR$BCf1{@~El>.6b0f1XFn8}$+$i!$@>$X8~$+$C$FELJb(B8$BJ,DxEY$G$9!%(B<br>
-      $BG@9)Bg$NElLg$K7zJ*$NG[CV?^$,$"$j$^$9!%(BWWW$B$r8+$i$l$kJ}$O!$(B
-      <a href="http://www.cs.tuat.ac.jp/access.html">$B0FFb?^(B</a>$B$,$"$j$^$9(B.
+場所: 東京農工大学工学部情報コミュニケーション工学科 7号棟 3階 3K室<br>
+      JR中央線東小金井駅南口から，西へ向かって徒歩8分程度です．<br>
+      農工大の東門に建物の配置図があります．WWWを見られる方は，
+      <a href="http://www.cs.tuat.ac.jp/access.html">案内図</a>があります.
 </pre>
 <hr>
-$BOC<T(B: $BBgC](B $BH,=#9'(B ($BG@9)BgBg3X1!9)3X8&5f2J(BM2)
+話者: 大竹 八州孝 (農工大大学院工学研究科M2)
 
 <hr>
-$BBjL\(B: ALG$B5!G=IU$-(BSIP$B%5!<%P$NDs0F(B
+題目: ALG機能付きSIPサーバの提案
 <hr>
-$B35MW(B:<br>
+概要:<br>
 
-  $B%$%s%?!<%M%C%H$r;H$C$?2;@<DL?.(BVoIP$B$O0B2A$JD95wN%!&9q:]EEOC%5!<%S(B
-$B%9$K;H$o$l$k$@$1$G$J$/!"4k6H%M%C%H%o!<%/$NFb@~%7%9%F%`$r(BIP$B2=$7$F%G(B
-$B!<%?$H0lK\2=$5$;$kF0$-$b=P$F$-$F$$$k!#(B
+  インターネットを使った音声通信VoIPは安価な長距離・国際電話サービ
+スに使われるだけでなく、企業ネットワークの内線システムをIP化してデ
+ータと一本化させる動きも出てきている。
 <p>
-  VoIP$B$NBeI=E*$J8F@)8f%W%m%H%3%k$H$7$F!"(BIETF$B$G:vDj$5$lI8=`2=$5$l$?(B
-Session Initiation Protocol(SIP)$B$,(BWindows XP$B$N(BWindows Messenger$B$G:N(B
-$BMQ$5$l$k$J$I!"(BSIP$B$NMxMQ$,@9$s$K$J$C$F$-$F$$$k!#(B
+  VoIPの代表的な呼制御プロトコルとして、IETFで策定され標準化された
+Session Initiation Protocol(SIP)がWindows XPのWindows Messengerで採
+用されるなど、SIPの利用が盛んになってきている。
 <p>
-  $B$7$+$7!"(BVoIP$B%"%W%j%1!<%7%g%s$G$O!"4pK\E*$K(BUDP$B$r;HMQ$9$k$?$a$K(BFire
-wall$B$N@_Dj$,30It$+$i$N(BUDP$B%Q%1%C%H$r<WCG$9$k$h$&$K$J$C$F$$$k$H!"@5>o(B
-$B$KF0:n$7$J$$$H$$$&LdBjE@$,$"$k!#(B
+  しかし、VoIPアプリケーションでは、基本的にUDPを使用するためにFire
+wallの設定が外部からのUDPパケットを遮断するようになっていると、正常
+に動作しないという問題点がある。
 <p>
-  $B$3$NLdBjE@$rBP=h$9$k$?$a!"%"%W%j%1!<%7%g%s%2!<%H%&%'%$5!G=IU$-$N(B
-SIP$B%5!<%P$r;n:n$9$k!#J}K!$H$7$F$O!"(BFreeBSD$B$N(BNAT$B%G!<%b%s$N%i%$%V%i%j(B
-$B$G$"$k(Blibalias$B$r(BSIP$B!"2;@<%a%G%#%"%Q%1%C%H$N%"%I%l%9JQ49$,2DG=$K$9$k(B
-$B$h$&$K2~NI$9$kJ}K!$rDs0F$9$k!#(B
+  この問題点を対処するため、アプリケーションゲートウェイ機能付きの
+SIPサーバを試作する。方法としては、FreeBSDのNATデーモンのライブラリ
+であるlibaliasをSIP、音声メディアパケットのアドレス変換が可能にする
+ように改良する方法を提案する。
 </body>
 </html>

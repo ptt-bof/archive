@@ -1,97 +1,97 @@
 <html>
 <head><title> #289th PTT (in Japanese)</title></head>
 <body>
-<h1> $BBh(B 289 $B2s(B PTT $B$N$*CN$i$;(B </h1>
+<h1> 第 289 回 PTT のお知らせ </h1>
 <hr>
-$BF|;~(B: 2003$BG/(B5$B7n(B29$BF|(B ($BLZ(B) 18:30 $B$+$i(B 
+日時: 2003年5月29日 (木) 18:30 から 
 <hr>
-$B>l=j(B: $BEE5$DL?.Bg3X>pJs9)3X2J(B $B@>(B9$B9f4[(B AV$B%[!<%k(B(3$B3,(B)
+場所: 電気通信大学情報工学科 西9号館 AVホール(3階)
 <pre>
-      $B?7=I1X$h$j5~2&@~!$D4I[1X(B($BFC5^!&=`FC5^$G(B2$B$DL\!$(B15$BJ,(B) $BKL8}2<<V!$(B
-      $BKL@>J}8~ELJb(B12$BJ,DxEY!%8rDL0FFb$O(B
-      <a href="http://www.uec.ac.jp/acc/map.html">$B%^%C%W(B</a>
-      $B$r;2>H$7$F$/$@$5$$!%EE5$DL?.Bg3X@>CO6h%-%c%s%Q%9$N(B
-      $BFn@>C<$K$"$kGr$$7zJ*(B; $B9C=#39F;(B($B9qF;(B20$B9f@~(B)
-      $B2<@P868r:9E@$NKL(B20$B%a!<%H%k$K@>Lg$"$j!%(B
+      新宿駅より京王線，調布駅(特急・準特急で2つ目，15分) 北口下車，
+      北西方向徒歩12分程度．交通案内は
+      <a href="http://www.uec.ac.jp/acc/map.html">マップ</a>
+      を参照してください．電気通信大学西地区キャンパスの
+      南西端にある白い建物; 甲州街道(国道20号線)
+      下石原交差点の北20メートルに西門あり．
 <hr>
-$BOC<T(B: $B0BED(B $B8(;R(B ($BEE5$DL?.Bg3X(B)
+話者: 安田 絹子 (電気通信大学)
 <hr>
-$BBjL>(B: Windows PC$B$N$?$a$N(BGUI$B>pJs$NCj=P$HE>Aw(B  - $B4y$+$iN%$l$F(BPC$B$r;H$*$&(B
+題名: Windows PCのためのGUI情報の抽出と転送  - 机から離れてPCを使おう
 <hr>
-$B35MW(B:<br>
-Windows PC$B$N1s3VA`:n$r<B8=$9$k$?$a!"(BGUI$BA`:n>pJs$N$_$rCj=P$7$F7HBSC<Kv(B
-$B$KE>Aw$9$k%=%U%H%&%'%"E*$J(BPC$B%j%b%3%s$r<B8=$7$?!#(BPC$B>e$N2hLLI=<($O%3%s%F(B
-$B%s%DI=<(It$H(BGUI$BA`:nIt$KBg$-$/J,$1$k$3$H$,$G$-$k$,!"%j%b%3%s$N<B8=$K$O(B
-$B$3$N$&$A(BGUI$BA`:nIt$N$_$rE>Aw$9$l$PNI$$$H9M$($i$l$k!#(B
+概要:<br>
+Windows PCの遠隔操作を実現するため、GUI操作情報のみを抽出して携帯端末
+に転送するソフトウェア的なPCリモコンを実現した。PC上の画面表示はコンテ
+ンツ表示部とGUI操作部に大きく分けることができるが、リモコンの実現には
+このうちGUI操作部のみを転送すれば良いと考えられる。
 <p>
-$B$7$+$7!"(BWindows$B$G$O(BOS$B$d%"%W%j%1!<%7%g%s$N%=!<%9%3!<%I$,$[$H$s$I8x3+$5(B
-$B$l$F$$$J$$$?$a!"(BGUI $BA`:n$K4X$9$k>pJs$r30$+$iCj=P$9$k$3$H$O:$Fq$G$"$k!#(B
-$BK\H/I=$G$O!"(BPC$B%j%b%3%s$N<BAu$NOC$rCf?4$K!"(BWindows $B$NDs6!$9$k(BAPI$B$H%U%C(B
-$B%/$H8F$P$l$k5!9=$rMQ$$$F(BWindows$B>e$N(BGUI$BA`:n>pJs$r$I$3$^$G<hF@$G$-$k$+$K(B
-$B$D$$$F=R$Y$k!#$^$?!"30It$+$iF@$i$l$k>pJs$N$_$G(BWindows$B$r$I$N$h$&$K3HD%(B
-$B$G$-$k$+!"4XO"8&5f$NOC$r8r$($J$,$i$=$N2DG=@-$K$D$$$F=R$Y$k!#(B
+しかし、WindowsではOSやアプリケーションのソースコードがほとんど公開さ
+れていないため、GUI 操作に関する情報を外から抽出することは困難である。
+本発表では、PCリモコンの実装の話を中心に、Windows の提供するAPIとフッ
+クと呼ばれる機構を用いてWindows上のGUI操作情報をどこまで取得できるかに
+ついて述べる。また、外部から得られる情報のみでWindowsをどのように拡張
+できるか、関連研究の話を交えながらその可能性について述べる。
 <hr>
 <pre>
-$BBh(B289$B2s(B PTT$B%a%b(B
+第289回 PTTメモ
 
-$BF|;~(B: 2003$BG/(B5$B7n(B29$BF|(B ($BLZ(B) 18:30 $B$+$i(B 
-$B>l=j(B: $BEE5$DL?.Bg3X>pJs9)3X2J(B $B@>(B9$B9f4[(B AV$B%[!<%k(B(3$B3,(B)
-$B=P@J<T(B: $B@PH*@6(B($BL@Bg(B)$B!$0KCNCO9((B($B%i%`%@?t658&(B)$B!$Hx:jN<Bg(B(NII)$B!$(B
-	$BHSEg9@8w(B($BElBg(BOB)$B!$>.7'<w(B(NTT$B%I%3%b(B)$B!$(B
-	$B3QEDGnJ]!$4d:j1Q:H!$Cf;3BY0l!$C]Fb0jM:!$B?ED9%9n!$@VJfBs:H!$(B
-	$BLx0f7<;J!$NS;39d5W!$M'?9?rA1!$1'<#@nN<!$LnED<"=U!$86BgJe!$(B
-	$B4V@%E/Li!$NkLZ?.8c!$J<F,OB<y!$<D86E/MN!$F~9>F;@8!$C]Fb0l5]!$(B
-	$B2VEDCRMN!$J!ED?-I'!$>.LnM%2p!$:4F#6,!$;01:L@J?!$:4!9LZD>;V(B($BEEDLBg(B)$B!$(B
-	$B>>:j8x5*!$EDCfE/O/!$NSK'<y!$4];30l5.!$N);35AM4(B($BElBg(B)$B!$(B
-	$B>.@nD>?M!$;01:854n!$MLCR1M(B
+日時: 2003年5月29日 (木) 18:30 から 
+場所: 電気通信大学情報工学科 西9号館 AVホール(3階)
+出席者: 石畑清(明大)，伊知地宏(ラムダ数教研)，尾崎亮大(NII)，
+	飯島浩光(東大OB)，小熊寿(NTTドコモ)，
+	角田博保，岩崎英哉，中山泰一，竹内郁雄，多田好克，赤穂拓哉，
+	柳井啓司，林山剛久，友森崇善，宇治川亮，野田滋春，原大輔，
+	間瀬哲也，鈴木信吾，兵頭和樹，篠原哲洋，入江道生，竹内一弓，
+	花田智洋，福田伸彦，小野優介，佐藤喬，三浦明平，佐々木直志(電通大)，
+	松崎公紀，田中哲朗，林芳樹，丸山一貴，立山義祐(東大)，
+	小川直人，三浦元喜，楊智瑛
 
-$BOC<T(B: $B0BED(B $B8(;R(B ($BEE5$DL?.Bg3X(B)
+話者: 安田 絹子 (電気通信大学)
 
-$BBjL>(B: Windows PC$B$N$?$a$N(BGUI$B>pJs$NCj=P$HE>Aw(B 
-      - $B4y$+$iN%$l$F(BPC$B$r;H$*$&(B
+題名: Windows PCのためのGUI情報の抽出と転送 
+      - 机から離れてPCを使おう
 
-$B35MW(B: 
-Windows PC$B$N1s3VA`:n$r<B8=$9$k$?$a!"(BGUI$BA`:n>pJs$N$_$rCj=P$7$F7HBSC<Kv(B
-$B$KE>Aw$9$k%=%U%H%&%'%"E*$J(BPC$B%j%b%3%s$r<B8=$7$?!#(BPC$B>e$N2hLLI=<($O%3%s%F(B
-$B%s%DI=<(It$H(BGUI$BA`:nIt$KBg$-$/J,$1$k$3$H$,$G$-$k$,!"%j%b%3%s$N<B8=$K$O(B
-$B$3$N$&$A(BGUI$BA`:nIt$N$_$rE>Aw$9$l$PNI$$$H9M$($i$l$k!#K\H/I=$G$O!"(BPC$B%j%b(B
-$B%3%s$N@_7W$H<BAu$NOC$rCf?4$K!"(BOS$B$d%"%W%j%1!<%7%g%s$N%=!<%9%3!<%I$,$[$H(B
-$B$s$I8x3+$5$l$F$$$J$$(BMS Windows$B>e$G(BGUI$BA`:n>pJs$r$I$N$h$&$K<hF@!&?dB,$9(B
-$B$k$+$K$D$$$F=R$Y$?!#$^$?!"CfL#$r?($k$3$H$N$G$-$J$$(BWindows PC $B$NA`:n4D(B
-$B6-$r3HD%$9$k0l<jK!$H$7$F!"<hF@$7$?(BGUI$B>pJs$r(BXML$B$J$I$N%W%i%C%H%U%)!<%`Hs(B
-$B0MB8$J7A<0$GE>Aw$9$k<jK!$r=R$Y$?!#(B
+概要: 
+Windows PCの遠隔操作を実現するため、GUI操作情報のみを抽出して携帯端末
+に転送するソフトウェア的なPCリモコンを実現した。PC上の画面表示はコンテ
+ンツ表示部とGUI操作部に大きく分けることができるが、リモコンの実現には
+このうちGUI操作部のみを転送すれば良いと考えられる。本発表では、PCリモ
+コンの設計と実装の話を中心に、OSやアプリケーションのソースコードがほと
+んど公開されていないMS Windows上でGUI操作情報をどのように取得・推測す
+るかについて述べた。また、中味を触ることのできないWindows PC の操作環
+境を拡張する一手法として、取得したGUI情報をXMLなどのプラットフォーム非
+依存な形式で転送する手法を述べた。
 
-$BH/I=%9%i%$%I$J$I$r0J2<$KCV$$$F$$$^$9!#(B
+発表スライドなどを以下に置いています。
 http://www.spa.is.uec.ac.jp/~kinuko/slidemaker/0305ptt/
 
-$B%G%b(B:
-$B0lBf$N(BPC$B$G%G%b!#(BHTTP$B1[$7$K(BWeb$B%V%i%&%6$+$i(BPC$B$rA`:n$9$k%G%b$O<:GT!#(B
+デモ:
+一台のPCでデモ。HTTP越しにWebブラウザからPCを操作するデモは失敗。
 
-$B<A5?1~Ez(B($B0lIt(B):
-Q: GUI$B>pJs$N<hF@$K!"(BMicrosoft$B$N(BRDP($B%j%b!<%H!&%G%9%/%H%C%W!&%W%m%H%3%k(B)$B$d(B
-   $B%"%/%;%7%S%j%F%#!&%,%$%I%i%$%s$,;H$($k$N$G$O!)(B
-A: $B$=$&$+$b$7$l$J$$!#D4$Y$F$^$;$s$G$7$?!#(B($B$=$N8eD4$Y$F!"%"%/%;%7%S%j%F%#!&(B
-   $B%,%$%I%i%$%s$O3hMQ$G$-$=$&$@$H$o$+$C$?!#$"$j$,$H$&$4$6$$$^$9!K(B
-Q: $B%=%U%H%&%'%"E*$K$O$H$b$+$/!"%O!<%I%&%'%"E*$KDL?.$J$I$O$I$&$9$k$N$+!)(B
-A: $B7HBSEEOC$G@)8f$9$k$3$H$O9M$($F$$$k!#DL?.$O(B Bluetooth $B$r9M$($F$*$j!"(B
-   $BBS0hE*$K$OBg>fIW$@$H;W$&$,!"$d$C$F$_$J$$$H(B(IP$BDL?.$G$O(B)$B$"$^$jLLGr$/$J$$!#(B
-Q: $B%/%i%$%"%s%H$O%9%F!<%H%l%9!)(B
-A: $B%H%C%W%l%Y%k$N%&%#%s%I%&$K4X$7$F$@$1%9%F!<%H$r;}$C$F$$$k!#(B
-Q: $BIaDL$N3X=,%j%b%3%s$H5U$N%"%W%m!<%A$,=PMh$k$N$G$O!)(B
+質疑応答(一部):
+Q: GUI情報の取得に、MicrosoftのRDP(リモート・デスクトップ・プロトコル)や
+   アクセシビリティ・ガイドラインが使えるのでは？
+A: そうかもしれない。調べてませんでした。(その後調べて、アクセシビリティ・
+   ガイドラインは活用できそうだとわかった。ありがとうございます）
+Q: ソフトウェア的にはともかく、ハードウェア的に通信などはどうするのか？
+A: 携帯電話で制御することは考えている。通信は Bluetooth を考えており、
+   帯域的には大丈夫だと思うが、やってみないと(IP通信では)あまり面白くない。
+Q: クライアントはステートレス？
+A: トップレベルのウィンドウに関してだけステートを持っている。
+Q: 普通の学習リモコンと逆のアプローチが出来るのでは？
 A:
-Q: NEC$B$N?M$,7HBSEEOC$G(BMUA$B$r@)8f$9$k$J$I$N8&5f$r$d$C$F$$$k!#(B
+Q: NECの人が携帯電話でMUAを制御するなどの研究をやっている。
 A:
-Q: $B%9%i%$%@!<$NA`:n!&(BWeb$B$N%j%s%/A`:n!&%"%W%j%1!<%7%g%s5/F0!&6JL>A*Br$J$I$O!)(B
-A: $B$G$-$^$;$s!#(B($B<BAu$7$F$J$$$b$N$H!"J}?KE*$KL5M}$J$b$N$H$"$j(B)
-Q: $B%/%i%$%"%s%HB&$G(BCUI$B$J$I$GA`:n$9$k$3$H$O!)(B
-A: $B2hA|$rE>Aw$7$F$$$k$o$1$G$O$J$$$N$G2DG=$G$9!#(B
-Q: $B%5!<%P%=%U%H$N0BDj@-!&B>$N%=%U%H$X$NIi2Y$N1F6A$O!)(B
-A: $B@5>oF0:nCf$OBg>fIW$@$,!"%U%C%/5!9=$rMQ$$$F$$$k$;$$$G0lEY$*$+$7$/$J$k$H(B
-   $BB>$N%"%W%j%1!<%7%g%s$^$GF;O"$l$K$J$k$3$H$b$"$k!#(B
-Q: UNIX$B$G$O$h$j>pJs$,<h$l$k$H$$$&$N$O13$G$O!)(B
-A: $B$A$g$C$H13$G$9!#(BWindows$B$O%=!<%9$O?($l$^$;$s$,3d$H$($2$D$J$$>pJs$,<h$l$^$9!#(B
-Q: Mac OS $BHG$O!)(B
-A: $B$"$j$^$;$s!#(B
+Q: スライダーの操作・Webのリンク操作・アプリケーション起動・曲名選択などは？
+A: できません。(実装してないものと、方針的に無理なものとあり)
+Q: クライアント側でCUIなどで操作することは？
+A: 画像を転送しているわけではないので可能です。
+Q: サーバソフトの安定性・他のソフトへの負荷の影響は？
+A: 正常動作中は大丈夫だが、フック機構を用いているせいで一度おかしくなると
+   他のアプリケーションまで道連れになることもある。
+Q: UNIXではより情報が取れるというのは嘘では？
+A: ちょっと嘘です。Windowsはソースは触れませんが割とえげつない情報が取れます。
+Q: Mac OS 版は？
+A: ありません。
 
 </pre>
 </body>

@@ -1,35 +1,35 @@
 <html>
 <head><title> #271st PTT (in Japanese)</title></head>
 <body>
-<h1> $BBh(B 271 $B2s(B PTT $B$N$*CN$i$;(B </h1>
+<h1> 第 271 回 PTT のお知らせ </h1>
 <hr>
-$BF|;~(B: 2001$BG/(B7$B7n(B19$BF|(B ($BLZ(B) 18:30 $B$+$i(B 
+日時: 2001年7月19日 (木) 18:30 から 
 <hr>
 <pre>
-$B>l=j(B: $BEl5~9)6HBg3X@>(B8$B9f4[(BW1008
-       $BEl5~9)6HBg3XBg2,;3%-%c%s%Q%9$O!$El5^L\3w@~(B/$BBg0fD.@~(B
-       $BBg2,;31X2<<VELJb(B1$BJ,$G$9!%(B
-       $B2q>l$N@>(B8$B9f4[$^$G$O@5Lg2#$N3XFbCO?^$r;29M$K$*1[$7$/$@$5$$!%(B
-       $B>\$7$/$O(B
- 	      <a href="http://www.titech.ac.jp/maps/index-j.html">$BEl5~9)6HBg3X$N%Z!<%8(B</a>
-       $B$r8fMw2<$5$$(B.       
+場所: 東京工業大学西8号館W1008
+       東京工業大学大岡山キャンパスは，東急目蒲線/大井町線
+       大岡山駅下車徒歩1分です．
+       会場の西8号館までは正門横の学内地図を参考にお越しください．
+       詳しくは
+ 	      <a href="http://www.titech.ac.jp/maps/index-j.html">東京工業大学のページ</a>
+       を御覧下さい.       
 </pre>
 <hr>
-$BBjL\!'(B $B%l%,%7!<(BJava$B%=%U%H%&%'%"$rJ,;6<B9T$9$k$?$a$N%P%$%H%3!<%IJQ495!(B
+題目： レガシーJavaソフトウェアを分散実行するためのバイトコード変換機
 <hr>
-$BOC<T!'N)KY(B $BF;><!JEl5~9)6HBg3X!K(B
+話者：立堀 道昭（東京工業大学）
 <hr>
-$B35MW(B: <br>
- $B4{B8$N(B Java $B%P%$%H%3!<%I$N5!G=J,;6$rL\E*$H$7$F3+H/$5$l$?%7%9%F%`!"(B 
-Addistant $B$rDs0F$9$k!#$3$3$G4{B8$N%P%$%H%3!<%I$H$O!"C10l$N(BJava $B2>A[5!(B
-$B3#!J(BJVM$B!K>e$GF0:n$9$k$h$&$K3+H/$5$l$?!"DL>o$N%P%$%H%3!<%I$r0UL#$7$F$$(B
-$B$k!#K\%7%9%F%`$G$O!"4{B8$N(B JVM $B$r3hMQ$9$k$?$a!"%P%$%H%3!<%IJQ49$K$h$k(B
-$B<jK!$rMQ$$$F$$$k!#(BAddistant $B$NMxMQ<T$O!"3F%/%i%9$N%$%s%9%?%s%9$r!"J#?t(B
-$B$N(B JVM $B$N$&$A$N$I$3$KG[CV$9$k$+$r!"<B9T$9$k%W%m%0%i%`$H$OJL$K5-=R$9$k!#(B
-Addistant $B$O(B $B$=$N;XDj$K=>$$%P%$%H%3!<%I$rJQ99$7$F!";XDj$5$l$?FCDj$NIt(B
-$BJ,$,1s3V$N(B JVM $B>e$GF0:n$7!"%m!<%+%k$N(B JVM $B>e$GF0:n$9$k;D$j$NItJ,$H%M%C(B
-$B%H%o!<%/$r1[$7$KDL?.$9$k$h$&$K$9$k!#Nc$($P!"(BJava Swing $B%i%$%V%i%j$rMQ(B
-$B$$$?4{B8%W%m%0%i%`$r!"1s3VCO$K$"$k(BJVM $B>e$GF0:n$5$;$D$D!"$=$N(B GUI $B%*%V(B
-$B%8%'%/%H$r<j85$K$"$kJL$N(B JVM $B>e$GF0:n$5$;$k$3$H$,$G$-$k!#(B
+概要: <br>
+ 既存の Java バイトコードの機能分散を目的として開発されたシステム、 
+Addistant を提案する。ここで既存のバイトコードとは、単一のJava 仮想機
+械（JVM）上で動作するように開発された、通常のバイトコードを意味してい
+る。本システムでは、既存の JVM を活用するため、バイトコード変換による
+手法を用いている。Addistant の利用者は、各クラスのインスタンスを、複数
+の JVM のうちのどこに配置するかを、実行するプログラムとは別に記述する。
+Addistant は その指定に従いバイトコードを変更して、指定された特定の部
+分が遠隔の JVM 上で動作し、ローカルの JVM 上で動作する残りの部分とネッ
+トワークを越しに通信するようにする。例えば、Java Swing ライブラリを用
+いた既存プログラムを、遠隔地にあるJVM 上で動作させつつ、その GUI オブ
+ジェクトを手元にある別の JVM 上で動作させることができる。
 </body>
 </html>

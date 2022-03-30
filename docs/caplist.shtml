@@ -5,55 +5,55 @@
 </HEAD>
 <BODY>
 
-PTT $B$NBh(B 255 $B2s5-G0$K$*$$$F!$2q>l$K$F;3Fb$,(B PTT memoranda $B$HBj$7$F(B PTT 
-$B$NH/I=%j%9%H$rD/$a$k$H$$$&H/I=$r9T$$$^$7$?!%$=$N:]!$(BPTT $B$NA0?H$N(B CAP 
-$B$H$$$&2s$,$"$C$?$H$$$&OCBj$,$G$^$7$?!%:#2s!$A0Ln@h@8$+$i(B CAP (Computer
-Aided Programming) $B$N5-O?$rD:$-$^$7$?$N$G!$$3$3$K5-O?$7$^$9!%(B
+PTT の第 255 回記念において，会場にて山内が PTT memoranda と題して PTT 
+の発表リストを眺めるという発表を行いました．その際，PTT の前身の CAP 
+という回があったという話題がでました．今回，前野先生から CAP (Computer
+Aided Programming) の記録を頂きましたので，ここに記録します．
 
 <hr>
 
 <pre>
 History of CAP (Computer Aided Programming) meeting
-  $B><OB(B48$BG/EY(B(1973$BG/(B6$B7n(B3$BF|$KBh(B1$B2s$,ElBg$G3+$+$l$F$$$^$9!#(B)
-    $B<g::(B $B0f>e8,B"!"44;v(B $Bd*(B $B$+$DI'!"0Q0w(B11$BL>(B
+  昭和48年度(1973年6月3日に第1回が東大で開かれています。)
+    主査 井上謙蔵、幹事 筧 かつ彦、委員11名
 
-1973.6   $B%W%m%0%i%`:GE,2=Nc(B                           $B2OED(B($BIY;NDL(B)  $BElBg(B
-     7   Cross-Assembler($BCf@>(B), Toward a Programming Laboratory($BA0Ln(B) $BIY;NDL(B
-     9   Syntax error$B=hM}(B($B0f>e(B), Software Enginnering : Bauer ($BA0Ln(B)  $BEl9)Bg(B
-    10   $B%3%s%Q%$%i5-=R8@8l(B CWL                       $BBg6p(B          $B7D1~(B
-    11   SNOBOL4 $B=hM}%7%9%F%`(B                         $B2OLn(B($B7D1~(B)    $BElBg(B
-    12   LISP implementation (Bobrow model)           $BEgED(B(ETL)     $BEl9)Bg(B
-1874.1   PLAN7$B=hM}%7%9%F%`(B                            $BIp;T(B($BElBg(B)    $B7D1~(B
-     2   FORTUNE$B$N>R2p(B                                $BLZB<(B($BEl9)Bg(B)  $BElBg(B
+1973.6   プログラム最適化例                           河田(富士通)  東大
+     7   Cross-Assembler(中西), Toward a Programming Laboratory(前野) 富士通
+     9   Syntax error処理(井上), Software Enginnering : Bauer (前野)  東工大
+    10   コンパイラ記述言語 CWL                       大駒          慶応
+    11   SNOBOL4 処理システム                         河野(慶応)    東大
+    12   LISP implementation (Bobrow model)           島田(ETL)     東工大
+1874.1   PLAN7処理システム                            武市(東大)    慶応
+     2   FORTUNEの紹介                                木村(東工大)  東大
       
-1974.3    STAGE II on Hitac-10                         $BA0Ln(B          $BEl9)Bg(B
-     4    STAGE II on Hitac-10                         $BA0Ln(B          ETL
-     5    FL                                           $B9-@%!"1'ET5\(B  $B7D1~(B
-     6    Dataless Programming                         $B>>ED(B          $BN)65(B
-     7    MPL ($B?tM}7W2hK!8~$1$N8@8l!)(B)                 $BM-Bt(B          $BEl9)Bg(B
-     9    $B5"D+Js9p(B(MIT)                                $BOBED(B          ETL
-    10    $B%"%;%s%V%j%W%m%0%i%`$NJQ49(B                   $BFbED(B          $B7D1~(B
-    11    LISP S-M$BJQ49(B                                 $BCf@>(B          $BElBg(B
-    12    SPOT                                         $B;g9g(B(NEC)     $BN)65(B
-1975.1    LISP aid                                     $B@P0f(B($BGn(B)      $BEl9)Bg(B
-     2    LISP editor                                  $BD9C+@n(B        ETL
-     3    PL-TT $B$N7P83(B                                 $BDT(B($BEl9)Bg(B)    $B7D1~(B
-     4    Structured Programming $B$N(B 2,3$B$NJ}K!(B          $BMn?e(B($B@E2,Bg(B)  $BElBg(B
-     5    P. P. (pretty printer ?)                     $BOBED(B          $BN)65(B
-     6    CMU$B$N6a67!"(BSIX12                             $BF#NS(B(NEC)     $BEl9)Bg(B
-     7    CAFT ($B650iMQ(BFORTRAN)                         $BBg6p!"86ED!"Cf@>(B  $B7D1~(B
-     9    LISP debugging                               $B9u@n(B($BEl<G(B)    ETL
-    10    PLAN $B$=$N8e(B                                  $BA0Ln(B          $BElBg(B
-    11    SPF macro ($B%"%;%s%V%iMQ(BSP$B%^%/%m(B)             $B2OLn(B($B;00f6d9T(B) $BN)65(B
-    12    CAP$B$O$$$+$K$"$k$Y$-$+(B                        $BOBED(B          $BEl9)Bg(B
-1976.1    Dynamic Run-time Opitimization               $B86ED(B          $B7D1~(B
-     2    PL/I$B$N(B pretty print                                        ETL
-     3    Structured Fortran (Westran)                 $B??Ln(B(ETL)     $BElBg(B
+1974.3    STAGE II on Hitac-10                         前野          東工大
+     4    STAGE II on Hitac-10                         前野          ETL
+     5    FL                                           広瀬、宇都宮  慶応
+     6    Dataless Programming                         松田          立教
+     7    MPL (数理計画法向けの言語？)                 有沢          東工大
+     9    帰朝報告(MIT)                                和田          ETL
+    10    アセンブリプログラムの変換                   内田          慶応
+    11    LISP S-M変換                                 中西          東大
+    12    SPOT                                         紫合(NEC)     立教
+1975.1    LISP aid                                     石井(博)      東工大
+     2    LISP editor                                  長谷川        ETL
+     3    PL-TT の経験                                 辻(東工大)    慶応
+     4    Structured Programming の 2,3の方法          落水(静岡大)  東大
+     5    P. P. (pretty printer ?)                     和田          立教
+     6    CMUの近況、SIX12                             藤林(NEC)     東工大
+     7    CAFT (教育用FORTRAN)                         大駒、原田、中西  慶応
+     9    LISP debugging                               黒川(東芝)    ETL
+    10    PLAN その後                                  前野          東大
+    11    SPF macro (アセンブラ用SPマクロ)             河野(三井銀行) 立教
+    12    CAPはいかにあるべきか                        和田          東工大
+1976.1    Dynamic Run-time Opitimization               原田          慶応
+     2    PL/Iの pretty print                                        ETL
+     3    Structured Fortran (Westran)                 真野(ETL)     東大
 </pre>
 
 <hr>
 <address>
-2000 $B;3Fb(B $B@F(B (YAMAUCHI Hitoshi)<BR>
+2000 山内 斉 (YAMAUCHI Hitoshi)<BR>
 $Date:: 2008-06-13 06:42:13 +0900#$
 </address>
 

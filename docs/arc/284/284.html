@@ -1,102 +1,102 @@
 <html>
 <head><title> #284th PTT (in Japanese)</title></head>
 <body>
-<h1> $BBh(B 284 $B2s(B PTT $B$N$*CN$i$;(B </h1>
+<h1> 第 284 回 PTT のお知らせ </h1>
 <hr>
-$BF|;~(B: 2002$BG/(B11$B7n(B28$BF|(B ($BLZ(B) 18:30 $B$+$i(B 
+日時: 2002年11月28日 (木) 18:30 から 
 <hr>
-$B>l=j(B: $BEE5$DL?.Bg3X(BIS$BEo(B2$B3,Cf2q5D<<!J(B215$B9f<<!K(B
+場所: 電気通信大学IS棟2階中会議室（215号室）
 <pre>
-       $B?7=I1X$h$j5~2&@~!$D4I[1X(B($BFC5^$G(B2$B$DL\!$(B15$BJ,(B) $BKL8}2<<V!$(B
-       $BKL@>J}8~ELJb(B12$BJ,DxEY!%8rDL0FFb$O(Bhttp://www.uec.ac.jp/acc/
-       map.html$B$r;2>H$7$F$/$@$5$$!%(BIS$BEo$K$D$$$F$O@5Lg$N<i1R$5$s$K(B
-       $BJ9$/$+!$(Bhttp://www.uec.ac.jp/acc/campusnai.html$B$N(B31$BHV$N(B
-       $B7zJ*$N0LCV$r5-21$9$k$N$,NI$$$G$7$g$&!%(B
+       新宿駅より京王線，調布駅(特急で2つ目，15分) 北口下車，
+       北西方向徒歩12分程度．交通案内はhttp://www.uec.ac.jp/acc/
+       map.htmlを参照してください．IS棟については正門の守衛さんに
+       聞くか，http://www.uec.ac.jp/acc/campusnai.htmlの31番の
+       建物の位置を記憶するのが良いでしょう．
 </pre>
 <hr>
-$BOC<T(B: $B;{ED<B(B ($BEE5$DL?.Bg3X(B)
+話者: 寺田実 (電気通信大学)
 <hr>
-$BBjL>(B: $B8@8lHs0MB8$N%W%m%0%i%`<B9T%m%0$rMQ$$$?%W%m%0%i%`M}2r(B
+題名: 言語非依存のプログラム実行ログを用いたプログラム理解
 <hr>
-$B35MW(B:<br>
- $B%W%m%0%i%`$NF0E*$J?6Iq$r3N$+$a$k$3$H$O(B, $B%W%m%0%i%`M}2r$d%G%P%C%0$KM-(B
-$BMQ$G$"$k(B.
+概要:<br>
+ プログラムの動的な振舞を確かめることは, プログラム理解やデバッグに有
+用である.
 <p>
- $B$=$N$?$a$N<jCJ$H$7$F<gMW$JFs$D$NJ}K!$O(B, $B%G%P%C%,$K$h$kBPOCE*$JA`:n$H(B,
-$B<B9T%m%0$N:N<h$G$"$k(B.
+ そのための手段として主要な二つの方法は, デバッガによる対話的な操作と,
+実行ログの採取である.
 <p>
- $B$o$l$o$l$O$3$l$^$G(BC$B%W%m%0%i%`$rBP>]$H$7$F%m%0$N:N<h$H1\Mw$N$?$a$N%7%9(B
-$B%F%`(BDRS(Dynamic Reading System)$B$r:n$C$F$-$?(B.
+ われわれはこれまでCプログラムを対象としてログの採取と閲覧のためのシス
+テムDRS(Dynamic Reading System)を作ってきた.
 <p>
- $B:G6a(B, $B$=$N%7%9%F%`9=@.$r8+D>$7(B, $B<B9T%m%0$N7A<0$rE}0l2=$9$k$3$H$G0J2<(B
-$B$NFCD'$r;}$D%7%9%F%`$r:n@.$7$?(B.
+ 最近, そのシステム構成を見直し, 実行ログの形式を統一化することで以下
+の特徴を持つシステムを作成した.
 <ul>
-<li> $B%W%m%0%i%`8@8l$K0MB8$7$J$$%m%07A<0$K$h$C$F(B, $BB?8@8l$KBP1~(B
-  ($B8=:_(B C, Java, Perl, Utilisp)
+<li> プログラム言語に依存しないログ形式によって, 多言語に対応
+  (現在 C, Java, Perl, Utilisp)
 
-<li>$B%m%0%Y!<%9$N<jK!$J$N$G(B, $BBPOCE*$G$J$$%"%W%j%1!<%7%g%s(B($B$?$H$($P(BCGI)$B$K$b(B
-  $BE,MQ2DG=(B
+<li>ログベースの手法なので, 対話的でないアプリケーション(たとえばCGI)にも
+  適用可能
 
-<li> $B%m%0$r:N<h$9$k$?$a$K$$$m$$$m$JJ}K!$,2DG=$G(B, $B?75,8@8l$X$NBP1~$bMF0W(B
+<li> ログを採取するためにいろいろな方法が可能で, 新規言語への対応も容易
 
-<li> $B1\Mw%7%9%F%`<+?H$O(BJava$B$K$h$C$F$$$k$N$G(B, $B%W%i%C%H%[!<%`Hs0MB8(B
+<li> 閲覧システム自身はJavaによっているので, プラットホーム非依存
 </ul>
-$B:#2s$O(B, $B%7%9%F%`$NA4BN9=@.(B, $B%m%07A<0(B, $B6qBNE*$J%m%0:N<hK!$N$$$m$$$m(B
-$B$K$D$$$F@bL@$7$h$&$H9M$($F$$$k(B.
+今回は, システムの全体構成, ログ形式, 具体的なログ採取法のいろいろ
+について説明しようと考えている.
 <hr>
 <pre>
-$BBh(B284$B2s(B PTT$B%a%b(B
+第284回 PTTメモ
 
-$BF|;~(B: 2002$BG/(B11$B7n(B28$BF|(B ($BLZ(B) 18:30 $B$+$i(B 
-$B>l=j(B: $BEE5$DL?.Bg3X(BIS$BEo(B2$B3,Cf2q5D<<!J(B215$B9f<<!K(B
-$B=P@J<T(B: $B:48}BYG7(B($BIY;N%<%m%C%/%9(B)$B!$NkLZ?.8c!$B?ED9%9n!$J!ED?-I'!$(B
-	$B:4F#6,!$?NJ?9,;R!$@VJfBs:H!$5\_7?50l!$1sF#90<y!$Cf;39/Fs!$(B
-	$B>.F#E/I'!$9b0fJ~9,!$B<:jBgJe!$>.LnM%2p!$>k4*M'=(!$?9K\Ip;q!$(B
-	$B5HED9/<#!$5FCO9'<#!$:4!9LZD>;V!$C]Fb0jM:(B($BEEDLBg(B)$B!$(B
-	$BJBLZH~B@O:!$:{ED9L0l(B($BG@9)Bg(B)$B!$>.7'<w(B(NTT$B%I%3%b(B)$B!$(B
-	$B>e:dL@L$!$HKIYMx7C!$>.@n5.1Q(B($BDEED=NBg(B)$B!$OBED1Q0l(B(IIJ)$B!$(B
-	$B2<T"<#(B($B@n:j;T(B)$B!$@PH*@6(B($BL@Bg(B)$B!$0KCNCO9((B($B%i%`%@?t658&(B)$B!$(B
-	$B4];30l5.!$NSK'<y!$I{ED=S2p!$EDCfE/O/(B($BElBg(B)
+日時: 2002年11月28日 (木) 18:30 から 
+場所: 電気通信大学IS棟2階中会議室（215号室）
+出席者: 佐口泰之(富士ゼロックス)，鈴木信吾，多田好克，福田伸彦，
+	佐藤喬，仁平幸子，赤穂拓哉，宮澤慎一，遠藤弘樹，中山康二，
+	小藤哲彦，高井朋幸，村崎大輔，小野優介，城勘友秀，森本武資，
+	吉田康治，菊地孝治，佐々木直志，竹内郁雄(電通大)，
+	並木美太郎，笹田耕一(農工大)，小熊寿(NTTドコモ)，
+	上坂明未，繁富利恵，小川貴英(津田塾大)，和田英一(IIJ)，
+	下國治(川崎市)，石畑清(明大)，伊知地宏(ラムダ数教研)，
+	丸山一貴，林芳樹，副田俊介，田中哲朗(東大)
 
-$BBjL\(B: $B8@8lHs0MB8$N%W%m%0%i%`<B9T%m%0$rMQ$$$?%W%m%0%i%`M}2r(B
+題目: 言語非依存のプログラム実行ログを用いたプログラム理解
 
-$BOC<T(B: $B;{ED<B(B ($BEE5$DL?.Bg3X(B)
+話者: 寺田実 (電気通信大学)
 
-$B35(B  $BMW!'(B
+概  要：
 
-    $B%W%m%0%i%`$N<B9T$N5-O?(B($B%m%0(B)$B$O(B, $B%W%m%0%i%`$N2D;k2=(B, $B<B9T$N2r@O$J$I$K(B
-$BM-MQ$J>pJs$G$"$k(B. $BJ#?t$N%W%m%0%i%`8@8l$N<B9T%m%0$r(B, $B$$$o$P:GBg8xLs?t$r(B
-$B$H$k$+$?$A$GE}9g$7(B, $B<B9TE@$N0LCV$r<($9(B e-record, $BJQ?t$NCM>pJs$r<($9(B
-p-record, $B$=$NB>$N>pJs$r<($9(B m-record $B$+$i$J$k7A<0$rDj$a$?(B.
+    プログラムの実行の記録(ログ)は, プログラムの可視化, 実行の解析などに
+有用な情報である. 複数のプログラム言語の実行ログを, いわば最大公約数を
+とるかたちで統合し, 実行点の位置を示す e-record, 変数の値情報を示す
+p-record, その他の情報を示す m-record からなる形式を定めた.
 
-$B$3$N6&DL%m%07A<0$rCf?4$H$7$F(B, $B%m%0$NMxMQJ}K!(B($B%W%m%0%i%`;f<G5o(B, $B%3!<%k%D%j!<(B,
-DRS) $B$r%G%b$r8r$($F>R2p$7$?(B.
-$B$5$i$K(B, $B$=$l$>$l$N8@8l=hM}7O(B(c, java, perl, utilisp)$B$+$i%m%0$r:N<h$9$k(B
-$BJ}K!$K$D$$$F@bL@$7$?(B.
+この共通ログ形式を中心として, ログの利用方法(プログラム紙芝居, コールツリー,
+DRS) をデモを交えて紹介した.
+さらに, それぞれの言語処理系(c, java, perl, utilisp)からログを採取する
+方法について説明した.
 
-$BH/I=%9%i%$%I(B, DRS($B%m%0%S%e!<%o(B)$B%W%m%0%i%`(B(class$B%U%!%$%k(B) $B$r(B
+発表スライド, DRS(ログビューワ)プログラム(classファイル) を
     http://pr.ice.uec.ac.jp/~terada/ptt284/
-$B$KCV$-$^$7$?(B.
+に置きました.
 
-$B<A5?1~Ez(B:
+質疑応答:
 
-Q: m-record $B$NA[Dj$5$l$kMxMQJ}K!$K$D$$$F(B
-A: $B%W%m%0%i%^$,<+J,$G%W%m%0%i%`$N?J9T$K4X$9$k>pJs$r=PNO$9$k$3$H$r(B
-   $BA[Dj$7$F$$$k(B.
-Q: $B<+J,$G(B printf $B$9$k$H$$$&$3$H$+(B
-A: $B$=$N$H$*$j(B
-Q: $B$7$+$7$I$N%9%H%j!<%`$K=PNO$9$l$P$h$$$N$+(B
-A: ... $B$9$_$^$;$s(B, $B$^$@8!F$Cf$G$9(B ...
+Q: m-record の想定される利用方法について
+A: プログラマが自分でプログラムの進行に関する情報を出力することを
+   想定している.
+Q: 自分で printf するということか
+A: そのとおり
+Q: しかしどのストリームに出力すればよいのか
+A: ... すみません, まだ検討中です ...
 
-Q: $B%W%m%0%i%`$NF~=PNOFbMF$+$i<B9TE@$r;XDj$G$-$J$$$+(B
-A: $B8=>u$G$O$G$-$J$$(B. $BF~=PNOMQ$N%f!<%6%l%Y%k$N4X?t$,$"$l$P(B,
-   $B$=$N8F=PE@$K9T$/$3$H$O$G$-$k$,(B.
-Q: $BF~=PNO$K4X$9$kJL<o$N%m%0>pJs(B (i-record $B$J$I(B)$B$r@_$1$F$O$I$&$+(B
+Q: プログラムの入出力内容から実行点を指定できないか
+A: 現状ではできない. 入出力用のユーザレベルの関数があれば,
+   その呼出点に行くことはできるが.
+Q: 入出力に関する別種のログ情報 (i-record など)を設けてはどうか
 
-Q: $B%3!<%k%0%i%U$NI=<($K$D$$$F(B, $B%Q%9$NDL2a2s?t$K1~$8$F(B, $B@~$N<oN`$d(B
-   $B?'$rJQ$($k$H$$$&$N$O$I$&$+(B
+Q: コールグラフの表示について, パスの通過回数に応じて, 線の種類や
+   色を変えるというのはどうか
 
-Q: $B%^%k%A%9%l%C%I$NI=<(K!$K$D$$$F(B, $B%?%V$G=E$M$k$H$$$&8+$;J}$O$I$&$+(B
+Q: マルチスレッドの表示法について, タブで重ねるという見せ方はどうか
 </pre>
 
 </body>
