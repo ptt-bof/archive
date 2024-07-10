@@ -6,7 +6,7 @@
 
 [佐藤重幸](https://satoshigeyuki.github.io/)が，PTT休止時点の最後の幹事である荒堀喜貴氏の許諾の下，Webサイトのデータを引き継いで，アーカイブ化しています．
 
-本レポジトリに関する問い合わせは，佐藤重幸 <sato.shigeyuki@mi.u-tokyo.ac.jp> 宛にメールを送ってください．
+本レポジトリに関する問い合わせは，佐藤重幸 <sato.shigeyuki@uec.ac.jp> 宛にメールを送ってください．
 オープンに議論したい場合には，issueを使ってもらっても構いません．
 
 ただし，アーカイブという性質上，pull requestは受け付けておらず，機械的にrejectします．
